@@ -1,0 +1,677 @@
+{
+  "id": "Software Engineering",
+  "title": "Software Engineering",
+  "description": "SBTE Bihar Diploma Prep: 60 Master MCQs",
+  "totalQuestions": 60,
+  "units": {
+    "1": "Intro & Process Models",
+    "2": "Requirement Engineering",
+    "3": "Software Planning",
+    "4": "Modeling & Design",
+    "5": "Coding & Testing",
+    "6": "Project Management"
+  },
+  "questionsPerUnit": 10,
+  "questions": [
+    {
+      "question": "Software engineering is defined as the application of:",
+      "options": [
+        "Creative arts to programming",
+        "Engineering principles to software development",
+        "Hardware design to systems",
+        "Manual data entry"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which model is also known as the 'Classic Life Cycle Model'?",
+      "options": [
+        "Spiral Model",
+        "Prototyping Model",
+        "Waterfall Model",
+        "Agile Model"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "In the Waterfall Model, when does the development of the next phase start?",
+      "options": [
+        "Simultaneously with the current phase",
+        "Only when the previous phase is complete",
+        "At the beginning of the project",
+        "During the testing phase"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which model is best suited for projects with high financial or technical risks?",
+      "options": [
+        "Waterfall Model",
+        "Spiral Model",
+        "Linear Sequential Model",
+        "Prototyping Model"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Software consists of which three components?",
+      "options": [
+        "Program, Hardware, User",
+        "Program, Documentation, Operating Procedures",
+        "CPU, RAM, Code",
+        "Requirements, Design, Testing"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The 'Layered Approach' to Software Engineering includes:",
+      "options": [
+        "Tools, Methods, Process, and Quality Focus",
+        "Hardware, Software, Network",
+        "Java, Python, C++",
+        "Client, Server, Database"
+      ],
+      "correctIndex": 0,
+      "unit": 1
+    },
+    {
+      "question": "A working model built to understand customer needs before actual development is a:",
+      "options": [
+        "Final Product",
+        "Prototype",
+        "Sprint",
+        "Spiral"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which model uses iterative and prototype approaches and was proposed by Barry Boehm?",
+      "options": [
+        "Waterfall",
+        "Incremental",
+        "Spiral",
+        "RAD"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "Traditional processes differ from Agile because Agile is:",
+      "options": [
+        "Sequential",
+        "Iterative and change-responsive",
+        "Only for small projects",
+        "Non-collaborative"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The primary goal of Software Engineering is to produce software that is:",
+      "options": [
+        "Expensive and complex",
+        "Reliable, efficient, and easy to maintain",
+        "Built without planning",
+        "Dependent only on hardware"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Requirement Elicitation is also known as:",
+      "options": [
+        "Requirement Specification",
+        "Requirement Gathering",
+        "Code Review",
+        "Debugging"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "What does SRS stand for?",
+      "options": [
+        "Software Reset System",
+        "Software Requirement Specification",
+        "System Requirement Solution",
+        "Standard Requirement Software"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which requirement type deals with system behavior and basic facilities?",
+      "options": [
+        "Non-functional",
+        "Functional",
+        "Domain",
+        "Project"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Security, reliability, and performance are examples of:",
+      "options": [
+        "Functional Requirements",
+        "Non-functional Requirements",
+        "Data Models",
+        "Coding Standards"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "The process of ensuring the software implements the right functions is:",
+      "options": [
+        "Verification",
+        "Validation",
+        "Estimation",
+        "Integration"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which technique involves a set of questions given to stakeholders?",
+      "options": [
+        "Brainstorming",
+        "Interview",
+        "Survey",
+        "Prototyping"
+      ],
+      "correctIndex": 2,
+      "unit": 2
+    },
+    {
+      "question": "SRS acts as a baseline for:",
+      "options": [
+        "Coding only",
+        "Verification and Validation",
+        "Hardware purchasing",
+        "Marketing"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "A good SRS minimizes:",
+      "options": [
+        "Functionality",
+        "Development time and cost",
+        "User involvement",
+        "Documentation"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Domain requirements are:",
+      "options": [
+        "Specific to a particular category of projects",
+        "Only non-functional",
+        "Ignored in SRS",
+        "Hardware specific"
+      ],
+      "correctIndex": 0,
+      "unit": 2
+    },
+    {
+      "question": "Requirement Engineering provides a framework for:",
+      "options": [
+        "Designing UI only",
+        "Meeting client goals and creating a blueprint",
+        "Writing final code",
+        "Selling software"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which metric measures size by counting source instructions?",
+      "options": [
+        "Function Points (FP)",
+        "Lines of Code (LOC)",
+        "COCOMO",
+        "Person-Month"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "The COCOMO model is used for:",
+      "options": [
+        "Testing",
+        "Cost and Effort Estimation",
+        "Requirements Gathering",
+        "UI Design"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "Function Point (FP) metric is:",
+      "options": [
+        "Language dependent",
+        "Language independent",
+        "Based only on LOC",
+        "Hardware focused"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "In COCOMO, which mode is used for small, simple projects?",
+      "options": [
+        "Embedded",
+        "Semi-detached",
+        "Organic",
+        "Spiral"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "The unit 'Person-Month' (PM) is used to measure:",
+      "options": [
+        "Software size",
+        "Development effort",
+        "Risk probability",
+        "Coding speed"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "What is the main purpose of a 'Code Walkthrough'?",
+      "options": [
+        "To fire bad programmers",
+        "To find defects and enable learning",
+        "To write new code",
+        "To install the software"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "A risk is defined by which two characteristics?",
+      "options": [
+        "Cost and Time",
+        "Uncertainty and Loss",
+        "Success and Profit",
+        "Code and Data"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "Which project parameter defines the duration and life-span?",
+      "options": [
+        "Project Scope",
+        "Project Time",
+        "Project Quality",
+        "Project Cost"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "Which COCOMO mode is used for complex, 'real-time' systems like Air Traffic Control?",
+      "options": [
+        "Organic",
+        "Semi-detached",
+        "Embedded",
+        "Analytical"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Risk Management includes which sequence of steps?",
+      "options": [
+        "Coding, Testing, Release",
+        "Identification, Analysis, Planning, Monitoring",
+        "Design, SRS, Implementation",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "The process of subdividing a system into smaller, manageable parts is:",
+      "options": [
+        "Abstraction",
+        "Modularity",
+        "Information Hiding",
+        "Coupling"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Which design approach is 'top-down'?",
+      "options": [
+        "Object-Oriented Design",
+        "Function-Oriented Design",
+        "Hybrid Design",
+        "Bottom-up Design"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "A graphical representation of the flow of data through a system is:",
+      "options": [
+        "Flowchart",
+        "Data Flow Diagram (DFD)",
+        "Decision Table",
+        "Structure Chart"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "High cohesion and low coupling generally lead to:",
+      "options": [
+        "Poor quality software",
+        "High-quality software",
+        "More bugs",
+        "Slower execution"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "The relationship between different modules is called:",
+      "options": [
+        "Cohesion",
+        "Coupling",
+        "Modularity",
+        "Abstraction"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "A 'Data Dictionary' contains:",
+      "options": [
+        "Final source code",
+        "Metadata and details of all data items in DFD",
+        "User passwords",
+        "Project budget"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Which notation in a Data Dictionary means 'consists of either a or b'?",
+      "options": [
+        "a + b",
+        "[a | b]",
+        "{a}",
+        "(a)"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "In UI Design, the interface should be:",
+      "options": [
+        "Complex and detailed",
+        "Simple, responsive, and consistent",
+        "Only text-based",
+        "Hidden from users"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Which chart represents the hierarchical structure of modules?",
+      "options": [
+        "Activity Network",
+        "Structure Chart",
+        "PERT Chart",
+        "Gantt Chart"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Hiding details to reduce complexity refers to:",
+      "options": [
+        "Modularity",
+        "Abstraction",
+        "Integration",
+        "Deployment"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "The process of finding bugs in software is:",
+      "options": [
+        "Design",
+        "Coding",
+        "Testing",
+        "Deployment"
+      ],
+      "correctIndex": 2,
+      "unit": 5
+    },
+    {
+      "question": "Testing each individual module separately is called:",
+      "options": [
+        "Integration Testing",
+        "Unit Testing",
+        "System Testing",
+        "White Box Testing"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "In Black-Box testing, the tester focuses on:",
+      "options": [
+        "Internal source code",
+        "Input and Output (Functional requirements)",
+        "Loop structures",
+        "Database schema"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which testing ensures that new changes have not introduced new bugs in existing features?",
+      "options": [
+        "Smoke Testing",
+        "Regression Testing",
+        "Alpha Testing",
+        "Unit Testing"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Verification answers the question:",
+      "options": [
+        "Are we building the right product?",
+        "Are we building the product right?",
+        "Is the product expensive?",
+        "Who is the client?"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Alpha testing is performed by:",
+      "options": [
+        "End-users at their own site",
+        "Internal employees/testers at the developer's site",
+        "Government officials",
+        "Competitive companies"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "White-Box testing requires knowledge of:",
+      "options": [
+        "Marketing",
+        "Programming and internal logic",
+        "User psychology",
+        "None of the above"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Validation ensures that the software meets:",
+      "options": [
+        "Coding standards",
+        "Customer requirements",
+        "Compiler rules",
+        "Employee needs"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Integration testing focuses on:",
+      "options": [
+        "Individual modules",
+        "Interaction between integrated units",
+        "Final deployment",
+        "User manuals"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Code reviews are conducted to:",
+      "options": [
+        "Replace the programmer",
+        "Identify bugs and logic problems early",
+        "Increase software cost",
+        "Delay the project"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "WBS stands for:",
+      "options": [
+        "Work Budget System",
+        "Work Breakdown Structure",
+        "Weekly Business Schedule",
+        "Web Base Software"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Which technique is used to manage 'uncertain' activities where time is not fixed?",
+      "options": [
+        "CPM",
+        "PERT",
+        "Gantt Chart",
+        "Waterfall"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "The 'Critical Path' in a project determines:",
+      "options": [
+        "The cheapest way to code",
+        "The minimum duration of the project",
+        "The number of employees",
+        "The size of the office"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Version control tools like Git help teams:",
+      "options": [
+        "Write faster code",
+        "Track and manage changes to source code over time",
+        "Design logos",
+        "Encrypt databases"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "CPM (Critical Path Method) is a:",
+      "options": [
+        "Probabilistic model",
+        "Deterministic model",
+        "Random model",
+        "Coding standard"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Configuration Management DB (CMDB) tracks:",
+      "options": [
+        "User names",
+        "Configuration Item history (Who, What, Why)",
+        "Office furniture",
+        "Internet speed"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Which chart is a horizontal bar chart used for project scheduling?",
+      "options": [
+        "PERT",
+        "Gantt Chart",
+        "Pie Chart",
+        "DFD"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "The primary aim of 'Release Planning' is to:",
+      "options": [
+        "Delete old code",
+        "Ensure smooth migration from testing to customer use",
+        "Hire new managers",
+        "Close the company"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Git, SVN, and Mercurial are examples of:",
+      "options": [
+        "Operating Systems",
+        "Version Control Software Tools",
+        "Compilers",
+        "Process Models"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    },
+    {
+      "question": "Project Scheduling involves:",
+      "options": [
+        "Only writing code",
+        "Identifying functions, dependencies, and timeline",
+        "Buying hardware",
+        "Calculating final profit"
+      ],
+      "correctIndex": 1,
+      "unit": 6
+    }
+  ]
+}

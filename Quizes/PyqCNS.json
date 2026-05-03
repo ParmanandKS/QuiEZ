@@ -1,0 +1,143 @@
+{
+    "title": "Computer Network Security Diploma Exam 2024",
+    "totalQuestions": 13,
+    "questions": [
+        {
+            "question": "SSL and TLS are protocols used for securing internet communications. (True/False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "ECC stands for Elliptic Curve Cryptography. (True/ False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "________ is a cryptographic technique where the same key is used for both encryption and decryption.",
+            "options": [
+                "Symmetric Key Cryptography",
+                "Asymmetric Key Cryptography",
+                "Hashing",
+                "Public Key Cryptography"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "The ________ is a widely used symmetric key block cipher.",
+            "options": [
+                "DES",
+                "RSA",
+                "ECC",
+                "Diffie-Hellman"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "________ is a public-key cryptosystem that is widely used for secure data transmission.",
+            "options": [
+                "RSA",
+                "AES",
+                "Blowfish",
+                "DES"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "The ________ algorithm is used for creating a cryptographic hash value.",
+            "options": [
+                "SHA",
+                "DES",
+                "SSL",
+                "RSA"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Viruses and worms are the same and cause the same type of damage. (True/False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "________ is a security protocol that provides secure communications on the internet.",
+            "options": [
+                "SSL",
+                "IPsec",
+                "DES",
+                "AES"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "The Data Encryption Standard (DES) is a ________ cipher that operates on ________-bit blocks of plaintext.",
+            "options": [
+                "block, 64",
+                "block, 32",
+                "block, 16",
+                "stream, 64"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "The working of DES involves multiple rounds of permutation, substitution, and ________ operations.",
+            "options": [
+                "XNOR",
+                "XOR",
+                "OR",
+                "AND"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In Asymmetric-Key Cryptography, ________ is a widely-used algorithm based on the difficulty of factoring large prime numbers.",
+            "options": [
+                "RSA",
+                "DSA",
+                "SSA",
+                "AES"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "________ are used to verify the authenticity of digital entities and facilitate secure communication over networks.",
+            "options": [
+                "Digital certificates",
+                "Digital signature",
+                "Digital pen",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "________ are security mechanisms designed to attract and detect unauthorized access attempts on a network.",
+            "options": [
+                "Honeypots",
+                "Honeyballs",
+                "Mudpots",
+                "Firewalls"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        }
+    ]
+}

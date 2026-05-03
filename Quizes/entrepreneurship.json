@@ -1,0 +1,18 @@
+{
+  "title": "Entrepreneurship Development",
+  "totalQuestions": 2,
+  "questions": [
+    {
+      "question": "Who is an entrepreneur?",
+      "options": ["A person who manages a business", "A person who works for a business", "A person who starts a business", "A person who invests in a business"],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "What is a business plan?",
+      "options": ["A plan for spending money", "A document describing a business", "A marketing strategy", "A technical specification"],
+      "correctIndex": 1,
+      "unit": 2
+    }
+  ]
+}

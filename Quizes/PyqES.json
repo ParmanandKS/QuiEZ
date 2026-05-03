@@ -1,0 +1,116 @@
+{
+  "title": "Entrepreneurship & Startup PYQ",
+  "totalQuestions": 10,
+  "questions": [
+    {
+      "question": "More demanding Products are-",
+      "options": [
+        "Less Profitable",
+        "more dangerous",
+        "more profitable",
+        "Less dangerous"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "The formation and management of partnership is governed by the Provision of ------",
+      "options": [
+        "Indian Partnership Act 1931",
+        "Indian Partnership Act 1932",
+        "Indian Partnership Act 1933",
+        "Indian Partnership Act 1934"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "SWOT stands for strength, ------- and Threats.",
+      "options": [
+        "Weakness, Opportunity",
+        "Work, Opposite",
+        "Weakness, Operation",
+        "Waste, Opportunity"
+      ],
+      "correctIndex": 0,
+      "unit": 1
+    },
+    {
+      "question": "'Need for achievement' was developed by --",
+      "options": [
+        "David McClelland",
+        "F. W. Taylor",
+        "Joseph Schumpeter",
+        "Carl Menger"
+      ],
+      "correctIndex": 0,
+      "unit": 1
+    },
+    {
+      "question": "An individual who starts, creates, and manages a new business can be called as -----",
+      "options": [
+        "A leader",
+        "A manager",
+        "A Professional",
+        "An entrepreneur"
+      ],
+      "correctIndex": 3,
+      "unit": 1
+    },
+    {
+      "question": "The real owner of the joint stock company is ---.",
+      "options": [
+        "Board of directors",
+        "Financer",
+        "Shareholders",
+        "Debenture holders"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "IDBI was established in the year-",
+      "options": [
+        "1944",
+        "1954",
+        "1964",
+        "1974"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "The entrepreneurs who blindly follow the traditional methods of production in spite of the loss is called -------- entrepreneur",
+      "options": [
+        "Adoptive",
+        "Fabian",
+        "Innovative",
+        "Drone"
+      ],
+      "correctIndex": 3,
+      "unit": 1
+    },
+    {
+      "question": "Copyright protection in India lasts for --",
+      "options": [
+        "Author's Lifetime + 60 Years",
+        "Author's Lifetime + 50 Years",
+        "Author's Lifetime + 40 Years",
+        "Author's Lifetime + 20 Years"
+      ],
+      "correctIndex": 0,
+      "unit": 1
+    },
+    {
+      "question": "To provide financial assistance to entrepreneurs the government has set up several --",
+      "options": [
+        "Intermediaries",
+        "financial institutions",
+        "financial advisors",
+        "industrial estate"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    }
+  ]
+}

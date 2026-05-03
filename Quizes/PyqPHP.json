@@ -1,0 +1,94 @@
+{
+  "title": "PHP PYQ",
+  "totalQuestions": 8,
+  "questions": [
+    {
+      "question": "In PHP, the ________ operator is used to concatenate two strings together.",
+      "options": [
+        "+",
+        ".",
+        "*",
+        "&"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The ________ statement in PHP is used to execute a block of code repeatedly as long as a specified condition is true.",
+      "options": [
+        "switch",
+        "while",
+        "if",
+        "for"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "In PHP, the ________ function is used to split a string into an array based on a delimiter.",
+      "options": [
+        "implode()",
+        "explode()",
+        "array_flip()",
+        "str_split()"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "A ________ array in PHP is an array where each element is associated with a key that is a string, rather than an index number.",
+      "options": [
+        "Multidimensional",
+        "Indexed",
+        "Associative",
+        "Sequential"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "In PHP, the ________ function is used to convert a string to all uppercase letters.",
+      "options": [
+        "strtolower()",
+        "strtoupper()",
+        "strrev()",
+        "ucfirst()"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "In PHP, a ________ method is automatically called when an object is created.",
+      "options": [
+        "Destructor",
+        "Inherited",
+        "Constructor",
+        "Cloning"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "________ in PHP allows a child class to inherit methods and properties from a parent class.",
+      "options": [
+        "Overloading",
+        "Introspection",
+        "Serialization",
+        "Inheritance"
+      ],
+      "correctIndex": 3,
+      "unit": 1
+    },
+    {
+      "question": "In PHP, to connect to a MySQL database, you use the ________ function.",
+      "options": [
+        "mysql_connect()",
+        "mysqli_connect()",
+        "pdo_connect()",
+        "db_connect()"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    }
+  ]
+}

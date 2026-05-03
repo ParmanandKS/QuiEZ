@@ -1,0 +1,231 @@
+{
+    "title": "Internet of Things (Advance) Diploma Exam",
+    "totalQuestions": 21,
+    "questions": [
+        {
+            "question": "Popular frameworks for IoT app development include __________ for backend and __________ for cross-platform mobile app development.",
+            "options": [
+                "Node.js / Flutter",
+                "Flutter / Node.js",
+                "MQTT / AWS IoT",
+                "AWS IoT / MQTT"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Which of the following is a valid variable name in Python?",
+            "options": [
+                "2variable",
+                "_variable",
+                "variable-name",
+                "variable name"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What is the output of the code: s = \"Hello World\"; print(s.replace(\"World\", \"Python\"))",
+            "options": [
+                "Hello Python",
+                "World, Python",
+                "Hello World",
+                "\"World\", \"Python\""
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "What is the output of (lambda x: x+5) (10)?",
+            "options": [
+                "10",
+                "15",
+                "5",
+                "Error"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which Arduino function runs once at the start?",
+            "options": [
+                "loop ()",
+                "setup ()",
+                "main ()",
+                "begin ()"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which cloud service model provides a platform for developing, testing, and deploying applications?",
+            "options": [
+                "IaaS",
+                "PaaS",
+                "SaaS",
+                "DaaS"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which RFID component transmits radio signals to the tag?",
+            "options": [
+                "Connectors",
+                "Reader",
+                "Controller software",
+                "Cable"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Choose the correct execution process of an Arduino code.",
+            "options": [
+                "Editor, Preprocessor, Compiler",
+                "Compiler, Editor, Preprocessor",
+                "Preprocessor, Compiler, Editor",
+                "None of the above"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "What will be the output of the code: class A: def __init__(self): print(\"A Constructor\"); class B(A): pass; obj = B()",
+            "options": [
+                "No output",
+                "B Constructor",
+                "A Constructor",
+                "Error"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Predict correct output: a = \"Hello, World!\"; print(a.replace(\"H\", \"J\"))",
+            "options": [
+                "Hello",
+                "World!",
+                "Jello, World!",
+                "Jorld!"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Hybrid cloud is a blend of ______ and _____ cloud services.",
+            "options": [
+                "public / private",
+                "local / global",
+                "public / local",
+                "private / global"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "Barcode is machine-readable in structure of numbers and a pattern of parallel lines. (True / False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Narrowband Internet of Things (NB-IoT) is _________ and ________ network technology.",
+            "options": [
+                "low-power / wide-area",
+                "high-power / narrow-area",
+                "low-power / narrow-area",
+                "high-power / wide-area"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Simplex is ____ way and Full duplex is ______ way communication.",
+            "options": [
+                "one / two",
+                "two / one",
+                "three / four",
+                "four / three"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "IEEE standard for Wi-Fi is:",
+            "options": [
+                "IEEE 802.11",
+                "IEEE 802.15",
+                "IEEE 802.10",
+                "IEEE 802.12"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Full form of RFID is:",
+            "options": [
+                "Radio Frequency Identification",
+                "Random Frequency Identification",
+                "Random Frequency Information",
+                "Radio Frequency Information"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Python programming Language is developed by:",
+            "options": [
+                "Zim Den",
+                "Guido van Rossum",
+                "Niene Stom",
+                "Wick van Rossum"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Output of: Nums=[65,30,35,42,50,52]; Nums.insert(2,90); print(Nums)",
+            "options": [
+                "[65,90,30,35,42,50,52]",
+                "[65,30,35,90,42,50,52]",
+                "[65,30,90,35,42,50,52]",
+                "[65,30,35,42,50,90]"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "In Python, a 'List' uses which brackets?",
+            "options": [
+                "[ ] (Square)",
+                "( ) (Small)",
+                "{ } (Curly)",
+                "None of these"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "AWS (Amazon Web Service) is an example of public cloud. (True/False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "The value of 'math.ceil(7.8)' in python is 7. (True/False)",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        }
+    ]
+}

@@ -1,0 +1,94 @@
+{
+  "title": "Software Engineering PYQ",
+  "totalQuestions": 8,
+  "questions": [
+    {
+      "question": "The Linear Sequential Model, also known as the ________ model, follows a sequential flow from requirements analysis to maintenance.",
+      "options": [
+        "Prototyping",
+        "Waterfall",
+        "Spiral",
+        "Agile"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "In Agile processes, the focus is on delivering ________ increments of the product through iterative cycles.",
+      "options": [
+        "large",
+        "small",
+        "infrequent",
+        "delayed"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The process of evaluating a system or its components with the intent to find whether it satisfies the specified requirements is known as ________",
+      "options": [
+        "Debugging",
+        "Coding",
+        "Verification",
+        "Validation"
+      ],
+      "correctIndex": 3,
+      "unit": 1
+    },
+    {
+      "question": "The need of a Software Requirement Specification (SRS) document is to ensure that ________",
+      "options": [
+        "the software design is complex",
+        "the project is delivered late",
+        "all stakeholders have a clear understanding of the requirements",
+        "the coding is done before planning"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "Choose the correct statement: One of the major responsibilities of a software project manager is to ________",
+      "options": [
+        "write all the code for the project",
+        "manage project risks and resources",
+        "design the user interface",
+        "test the software thoroughly"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The design concept that focuses on breaking down a system into smaller, manageable modules is called ________",
+      "options": [
+        "cohesion",
+        "coupling",
+        "abstraction",
+        "modularity"
+      ],
+      "correctIndex": 3,
+      "unit": 1
+    },
+    {
+      "question": "The process of managing changes to software is called ________",
+      "options": [
+        "Software Design",
+        "Software Configuration Management",
+        "Software Implementation",
+        "Software Testing"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "In software design, ________ refers to the degree to which the elements inside a module belong together.",
+      "options": [
+        "Coupling",
+        "Abstraction",
+        "Cohesion",
+        "Modularity"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    }
+  ]
+}

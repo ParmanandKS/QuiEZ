@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuiEZ - An Open Source Initiative by ParmanandKS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        glass: 'rgba(255, 255, 255, 0.1)',
+                        glassBorder: 'rgba(255, 255, 255, 0.2)',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-out',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { opacity: '0', transform: 'translateY(20px)' },
+                            '100%': { opacity: '1', transform: 'translateY(0)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #3b0764 100%);
+            background-attachment: fixed;
+            min-height: 100vh;
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        }
+
+        .circular-chart {
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
+            max-height: 250px;
+        }
+
+        .circle-bg {
+            fill: none;
+            stroke: rgba(255, 255, 255, 0.1);
+            stroke-width: 3.8;
+        }
+
+        .circle {
+            fill: none;
+            stroke-width: 3.8;
+            stroke-linecap: round;
+            transition: stroke-dasharray 1.5s ease-out;
+        }
+
+        .percentage {
+            fill: #fff;
+            font-family: 'Inter', sans-serif;
+            font-weight: bold;
+            font-size: 0.5em;
+            text-anchor: middle;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: rgba(255, 255, 255, 0.05);
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+
+        .option-btn {
+            transition: all 0.2s ease-in-out;
+        }
+
+        .option-btn:not(:disabled):hover {
+            background: rgba(255, 255, 255, 0.15);
+            transform: translateY(-2px);
+        }
+
+        .option-btn:disabled {
+            cursor: not-allowed;
+            opacity: 0.9;
+        }
+
+        @keyframes blob {
+            0% {
+                transform: translate(0px, 0px) scale(1);
+            }
+
+            33% {
+                transform: translate(30px, -50px) scale(1.1);
+            }
+
+            66% {
+                transform: translate(-20px, 20px) scale(0.9);
+            }
+
+            100% {
+                transform: translate(0px, 0px) scale(1);
+            }
+        }
+
+        .animate-blob {
+            animation: blob 10s infinite alternate;
+        }
+
+        .animation-delay-2000 {
+            animation-delay: 2s;
+        }
+
+        .animation-delay-4000 {
+            animation-delay: 4s;
+        }
+    </style>
+</head>
+
+<body class="text-white overflow-x-hidden antialiased flex items-center justify-center py-10 px-4 sm:px-6 lg:px-8">
+
+    <!-- Toast Notification -->
+    <div id="toast"
+        class="fixed top-5 right-5 z-50 glass-card px-6 py-3 rounded-xl hidden flex items-center gap-3 transition-opacity duration-300">
+        <span id="toast-icon"></span>
+        <p id="toast-message" class="text-sm font-medium"></p>
+    </div>
+
+    <!-- Main Container -->
+    <main
+        class="w-full max-w-4xl glass-card rounded-3xl p-6 sm:p-10 min-h-[500px] relative overflow-hidden animate-slide-up shadow-2xl">
+
+        <!-- Background decorative elements -->
+        <div
+            class="absolute -top-24 -left-24 w-56 h-56 bg-purple-500 rounded-full mix-blend-screen filter blur-[64px] opacity-40 animate-blob">
+        </div>
+        <div
+            class="absolute -bottom-24 -right-24 w-72 h-72 bg-indigo-500 rounded-full mix-blend-screen filter blur-[64px] opacity-40 animate-blob animation-delay-2000">
+        </div>
+        <div
+            class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-64 h-64 bg-cyan-500 rounded-full mix-blend-screen filter blur-[64px] opacity-20 animate-blob animation-delay-4000">
+        </div>
+
+        <!-- 1. Dashboard Screen -->
+        <section id="dashboard-screen" class="relative z-10 w-full animate-fade-in">
+            <div class="text-center mb-10">
+                <h1
+                    class="text-4xl sm:text-5xl font-extrabold tracking-tight mb-3 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-cyan-300">
+                    QuiEZ</h1>
+                <p class="text-gray-300 text-lg">Select a quiz to test your knowledge</p>
+            </div>
+
+            <div id="quiz-list-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Quizzes will be rendered here dynamically -->
+                <div class="col-span-full flex justify-center py-10">
+                    <svg class="animate-spin h-8 w-8 text-white" xmlns="http://www.w3.org/2000/svg" fill="none"
+                        viewBox="0 0 24 24">
+                        <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4">
+                        </circle>
+                        <path class="opacity-75" fill="currentColor"
+                            d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                        </path>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Form Screen -->
+        <section id="form-screen" class="relative z-10 w-full hidden animate-fade-in">
+            <div class="max-w-md mx-auto">
+                <button onclick="switchScreen('dashboard-screen')"
+                    class="mb-6 text-gray-400 hover:text-white flex items-center transition-colors">
+                    <svg class="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7">
+                        </path>
+                    </svg>
+                    Back to Quizzes
+                </button>
+
+                <div class="glass-card rounded-2xl p-8">
+                    <h2 class="text-2xl font-bold mb-2" id="selected-quiz-title">Quiz Title</h2>
+                    <p class="text-gray-400 mb-8 text-sm" id="selected-quiz-desc">Please enter your details to begin</p>
+
+                    <form id="user-form" class="space-y-5">
+                        <div>
+                            <label for="userName" class="block text-sm font-medium text-gray-300 mb-1">Full Name</label>
+                            <input type="text" id="userName" name="data[Name]" required
+                                class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                                placeholder="John Doe">
+                        </div>
+                        <div>
+                            <label for="userEmail" class="block text-sm font-medium text-gray-300 mb-1">Email
+                                Address</label>
+                            <input type="email" id="userEmail" name="data[Email]" required
+                                class="w-full bg-white/5 border border-white/10 rounded-lg px-4 py-3 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all"
+                                placeholder="john@example.com">
+                        </div>
+
+                        <button type="submit" id="start-btn"
+                            class="w-full bg-gradient-to-r from-purple-600 to-indigo-600 hover:from-purple-500 hover:to-indigo-500 text-white font-semibold py-3 px-4 rounded-lg shadow-lg transform transition-transform hover:scale-[1.02] active:scale-95 flex justify-center items-center">
+                            <span>Start Quiz</span>
+                            <svg class="w-5 h-5 ml-2 hidden" id="start-spinner" animate-spin
+                                xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                                <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor"
+                                    stroke-width="4"></circle>
+                                <path class="opacity-75" fill="currentColor"
+                                    d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z">
+                                </path>
+                            </svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Quiz Screen -->
+        <section id="quiz-screen"
+            class="relative z-10 w-full hidden animate-fade-in flex flex-col h-full min-h-[400px]">
+            <!-- Header -->
+            <div class="flex justify-between items-center mb-6 pb-4 border-b border-white/10">
+                <div class="flex items-center gap-3">
+                    <span id="unit-tag"
+                        class="bg-purple-600/30 text-purple-200 border border-purple-500/30 px-3 py-1 rounded-full text-xs font-semibold tracking-wide uppercase">
+                        Unit 1
+                    </span>
+                    <h3 id="quiz-header-title" class="font-medium text-gray-200 hidden sm:block"></h3>
+                </div>
+                <div class="text-right">
+                    <p class="text-sm text-gray-400">Question <span id="current-q-num"
+                            class="font-bold text-white text-lg">1</span> of <span id="total-q-num">10</span></p>
+                </div>
+            </div>
+
+            <!-- Progress Bar -->
+            <div class="w-full bg-white/10 rounded-full h-1.5 mb-8 overflow-hidden">
+                <div id="quiz-progress"
+                    class="bg-gradient-to-r from-cyan-400 to-purple-500 h-1.5 rounded-full transition-all duration-300"
+                    style="width: 0%"></div>
+            </div>
+
+            <!-- Question Container -->
+            <div id="question-container" class="flex-grow flex flex-col justify-center">
+                <div class="mb-8">
+                    <h2 id="question-text" class="text-2xl sm:text-3xl font-semibold leading-snug">Loading question...
+                    </h2>
+                </div>
+
+                <div id="options-container" class="space-y-3 mt-auto">
+                    <!-- Options injected here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. Result Screen -->
+        <section id="result-screen" class="relative z-10 w-full hidden animate-fade-in">
+            <div class="text-center mb-8">
+                <h2 class="text-3xl font-bold mb-2">Quiz Completed!</h2>
+                <p id="feedback-message" class="text-lg text-gray-300"></p>
+            </div>
+
+            <div id="result-grid" class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Score Circle -->
+                <div id="score-card" class="glass-card rounded-2xl p-6 flex flex-col items-center justify-center">
+                    <h3 class="text-gray-400 font-medium mb-4 uppercase tracking-wider text-sm">Overall Score</h3>
+
+                    <svg viewBox="0 0 36 36" class="circular-chart" id="score-chart">
+                        <path class="circle-bg" d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <path class="circle" id="score-circle-path" stroke="#4ade80" stroke-dasharray="0, 100" d="M18 2.0845
+                            a 15.9155 15.9155 0 0 1 0 31.831
+                            a 15.9155 15.9155 0 0 1 0 -31.831" />
+                        <text x="18" y="20.35" class="percentage" id="score-percentage">0%</text>
+                    </svg>
+
+                    <p class="mt-4 text-xl font-bold" id="score-text">0 / 0</p>
+                </div>
+
+                <!-- Unit-wise Analysis -->
+                <div id="unit-analysis-card"
+                    class="glass-card rounded-2xl p-6 flex flex-col max-h-[300px] overflow-y-auto">
+                    <h3
+                        class="text-gray-400 font-medium mb-6 uppercase tracking-wider text-sm sticky top-0 bg-[#161326] bg-opacity-90 py-1 z-10">
+                        Unit-wise Analysis</h3>
+                    <div id="unit-analysis-container" class="space-y-5">
+                        <!-- Unit bars injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="mt-8 text-center flex flex-col sm:flex-row justify-center gap-4">
+                <button onclick="location.reload()"
+                    class="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-semibold py-3 px-8 rounded-lg shadow-lg transition-colors">
+                    Take Another Quiz
+                </button>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Application Logic -->
+    <script>
+        // --- State ---
+        const state = {
+            quizList: [],
+            selectedQuiz: null,
+            userData: { Name: '', Email: '' },
+            quizData: [],
+            currentQuestionIndex: 0,
+            score: 0,
+            unitWiseStats: {},
+            isSubmitting: false,
+            SHEET_API_URL: 'https://sheetdb.io/api/v1/m0af5zrqq4gr5'
+        };
+
+        // --- DOM Elements ---
+        const screens = ['dashboard-screen', 'form-screen', 'quiz-screen', 'result-screen'];
+        const el = {
+            quizListContainer: document.getElementById('quiz-list-container'),
+            userForm: document.getElementById('user-form'),
+            startBtn: document.getElementById('start-btn'),
+            startSpinner: document.getElementById('start-spinner'),
+
+            // Quiz Elements
+            questionText: document.getElementById('question-text'),
+            optionsContainer: document.getElementById('options-container'),
+            currentQNum: document.getElementById('current-q-num'),
+            totalQNum: document.getElementById('total-q-num'),
+            quizProgress: document.getElementById('quiz-progress'),
+            unitTag: document.getElementById('unit-tag'),
+            quizHeaderTitle: document.getElementById('quiz-header-title'),
+
+            // Result Elements
+            scorePercentage: document.getElementById('score-percentage'),
+            scoreCirclePath: document.getElementById('score-circle-path'),
+            scoreText: document.getElementById('score-text'),
+            feedbackMessage: document.getElementById('feedback-message'),
+            unitAnalysisContainer: document.getElementById('unit-analysis-container'),
+
+            // Toast
+            toast: document.getElementById('toast'),
+            toastIcon: document.getElementById('toast-icon'),
+            toastMessage: document.getElementById('toast-message')
+        };
+
+        // --- Core Functions ---
+
+        function switchScreen(screenId) {
+            screens.forEach(s => {
+                document.getElementById(s).classList.add('hidden');
+            });
+            document.getElementById(screenId).classList.remove('hidden');
+            // Small scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+
+        function showToast(message, type = 'success') {
+            el.toastMessage.textContent = message;
+            if (type === 'success') {
+                el.toast.className = 'fixed top-5 right-5 z-50 glass-card px-6 py-3 rounded-xl flex items-center gap-3 transition-opacity duration-300 border-green-500/50 bg-green-900/20';
+                el.toastIcon.innerHTML = '<svg class="w-5 h-5 text-green-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>';
+            } else {
+                el.toast.className = 'fixed top-5 right-5 z-50 glass-card px-6 py-3 rounded-xl flex items-center gap-3 transition-opacity duration-300 border-red-500/50 bg-red-900/20';
+                el.toastIcon.innerHTML = '<svg class="w-5 h-5 text-red-400" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>';
+            }
+
+            setTimeout(() => {
+                el.toast.classList.add('opacity-0');
+                setTimeout(() => el.toast.classList.add('hidden'), 300);
+            }, 3000);
+        }
+
+        // --- Dashboard Logic ---
+
+        async function loadQuizBoard() {
+            try {
+                const response = await fetch('quizboard.json');
+                if (!response.ok) throw new Error('Failed to fetch quizboard.json');
+                const data = await response.json();
+
+                state.quizList = data.quizzes || [];
+                renderQuizList();
+            } catch (error) {
+                console.error(error);
+                el.quizListContainer.innerHTML = `
+                    <div class="col-span-full text-center py-10 bg-red-900/20 border border-red-500/30 rounded-xl">
+                        <p class="text-red-400 font-medium">Failed to load quizzes. Please check your connection or data files.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function renderQuizList() {
+            if (state.quizList.length === 0) {
+                el.quizListContainer.innerHTML = '<p class="col-span-full text-center text-gray-400">No quizzes available right now.</p>';
+                return;
+            }
+
+            el.quizListContainer.innerHTML = '';
+            state.quizList.forEach((quiz, index) => {
+                const card = document.createElement('div');
+                card.className = 'glass-card p-6 rounded-2xl hover:bg-white/10 transition-all cursor-pointer group hover:-translate-y-1';
+                card.innerHTML = `
+                    <div class="flex justify-between items-start mb-4">
+                        <div class="p-3 bg-purple-500/20 rounded-xl group-hover:bg-purple-500/30 transition-colors">
+                            <svg class="w-6 h-6 text-purple-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path>
+                            </svg>
+                        </div>
+                        <span class="bg-cyan-500/20 text-cyan-300 text-xs font-semibold px-2.5 py-1 rounded-full border border-cyan-500/30">${quiz.questions} Qs</span>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2 text-white group-hover:text-purple-200 transition-colors">${quiz.title}</h3>
+                    <p class="text-sm text-gray-400">${quiz.description}</p>
+                `;
+                card.onclick = () => showForm(quiz);
+                el.quizListContainer.appendChild(card);
+            });
+        }
+
+        function showForm(quiz) {
+            state.selectedQuiz = quiz;
+            document.getElementById('selected-quiz-title').textContent = quiz.title;
+            switchScreen('form-screen');
+        }
+
+        // --- Form Logic ---
+
+        async function startQuiz(e) {
+            e.preventDefault();
+            if (state.isSubmitting) return;
+
+            const name = document.getElementById('userName').value.trim();
+            const email = document.getElementById('userEmail').value.trim();
+
+            if (!name || !email) return showToast('Please fill all fields', 'error');
+
+            state.userData = { Name: name, Email: email };
+            state.isSubmitting = true;
+
+            // UI Feedback
+            el.startBtn.classList.add('opacity-80', 'cursor-not-allowed');
+            el.startBtn.querySelector('span').textContent = 'Starting...';
+            el.startSpinner.classList.remove('hidden');
+
+            try {
+                // Send initial data to SheetDB
+                const response = await fetch(state.SHEET_API_URL, {
+                    method: 'POST',
+                    headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ data: state.userData })
+                });
+
+                if (!response.ok) throw new Error('Submission failed');
+
+                await loadQuizData();
+            } catch (error) {
+                console.error(error);
+                showToast('Network error, but starting quiz anyway for demo', 'error');
+                // Proceed anyway so app works if sheet is down
+                await loadQuizData();
+            } finally {
+                state.isSubmitting = false;
+                el.startBtn.classList.remove('opacity-80', 'cursor-not-allowed');
+                el.startBtn.querySelector('span').textContent = 'Start Quiz';
+                el.startSpinner.classList.add('hidden');
+            }
+        }
+
+        el.userForm.addEventListener('submit', startQuiz);
+
+        // --- Quiz Engine ---
+
+        async function loadQuizData() {
+            try {
+                const response = await fetch(state.selectedQuiz.file);
+                if (!response.ok) throw new Error(`Failed to fetch ${state.selectedQuiz.file}`);
+                const data = await response.json();
+
+                state.quizData = data.questions || [];
+                state.quizTitle = data.title || state.selectedQuiz.title;
+
+                if (!state.quizData || state.quizData.length === 0) {
+                    throw new Error('Quiz is empty');
+                }
+
+                initQuizEngine();
+            } catch (error) {
+                console.error(error);
+                switchScreen('quiz-screen');
+                document.getElementById('question-container').innerHTML = `
+                    <div class="text-center py-10 bg-red-900/20 border border-red-500/30 rounded-xl">
+                        <p class="text-red-400 font-medium mb-4">Failed to load quiz data: ${error.message}</p>
+                        <button onclick="location.reload()" class="bg-red-500 hover:bg-red-600 text-white font-semibold py-2 px-6 rounded-lg transition-colors">
+                            Reload App
+                        </button>
+                    </div>
+                `;
+            }
+        }
+
+        function initQuizEngine() {
+            state.score = 0;
+            state.currentQuestionIndex = 0;
+            state.unitWiseStats = {};
+
+            // Determine if it's a PYQ
+            const title = (state.quizTitle || state.selectedQuiz.title || '').toLowerCase();
+            const id = (state.selectedQuiz.id || '').toLowerCase();
+            const file = (state.selectedQuiz.file || '').toLowerCase();
+            state.isPYQ = title.includes('pyq') || id.includes('pyq') || file.includes('pyq');
+
+            // Pre-calculate unit stats
+            state.quizData.forEach(q => {
+                const unit = q.unit || 'General';
+                if (!state.unitWiseStats[unit]) {
+                    state.unitWiseStats[unit] = { total: 0, correct: 0, name: `Unit ${unit}` };
+                }
+                state.unitWiseStats[unit].total++;
+            });
+
+            el.totalQNum.textContent = state.quizData.length;
+            el.quizHeaderTitle.textContent = state.quizTitle || state.selectedQuiz.title;
+
+            switchScreen('quiz-screen');
+            showQuestion();
+        }
+
+        function showQuestion() {
+            const qData = state.quizData[state.currentQuestionIndex];
+            const unit = qData.unit || 'General';
+
+            // Update Headers & Progress
+            el.currentQNum.textContent = state.currentQuestionIndex + 1;
+
+            if (state.isPYQ) {
+                el.unitTag.classList.add('hidden');
+            } else {
+                el.unitTag.classList.remove('hidden');
+                el.unitTag.textContent = `Unit ${unit}`;
+            }
+
+            el.questionText.textContent = qData.question;
+
+            const progressPct = ((state.currentQuestionIndex) / state.quizData.length) * 100;
+            el.quizProgress.style.width = `${progressPct}%`;
+
+            // Shuffle Options logic
+            // We map original options to objects storing their text and whether they are correct
+            let optionsMapped = qData.options.map((opt, idx) => ({
+                text: opt,
+                isCorrect: idx === qData.correctIndex,
+                originalIndex: idx
+            }));
+
+            // Fisher-Yates Shuffle
+            for (let i = optionsMapped.length - 1; i > 0; i--) {
+                const j = Math.floor(Math.random() * (i + 1));
+                [optionsMapped[i], optionsMapped[j]] = [optionsMapped[j], optionsMapped[i]];
+            }
+
+            // Adjust layout based on number of options
+            if (optionsMapped.length === 2) {
+                el.optionsContainer.className = 'grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto';
+            } else if (optionsMapped.length === 4) {
+                el.optionsContainer.className = 'grid grid-cols-1 sm:grid-cols-2 gap-4 mt-auto';
+            } else {
+                el.optionsContainer.className = 'flex flex-col gap-3 mt-auto';
+            }
+
+            el.optionsContainer.innerHTML = '';
+
+            optionsMapped.forEach((optObj, idx) => {
+                const btn = document.createElement('button');
+                btn.className = 'option-btn w-full text-left bg-white/5 border border-white/10 p-4 rounded-xl hover:bg-white/10 hover:border-white/20 transition-all text-gray-200 font-medium flex items-center gap-3 relative overflow-hidden group';
+
+                const letter = String.fromCharCode(65 + idx); // A, B, C, D
+
+                btn.innerHTML = `
+                    <span class="flex-shrink-0 w-8 h-8 flex items-center justify-center bg-white/10 rounded-lg text-sm font-bold text-gray-400 group-hover:text-white group-hover:bg-purple-500/50 transition-colors border border-white/5">${letter}</span>
+                    <span class="flex-grow">${optObj.text}</span>
+                `;
+
+                btn.onclick = () => handleAnswer(btn, optObj.isCorrect, unit, optionsMapped);
+                el.optionsContainer.appendChild(btn);
+            });
+        }
+
+        function handleAnswer(selectedBtn, isCorrect, unit, optionsMapped) {
+            // Disable all buttons to prevent multiple clicks
+            const allBtns = el.optionsContainer.querySelectorAll('.option-btn');
+            allBtns.forEach(btn => btn.disabled = true);
+
+            // Update scores
+            if (isCorrect) {
+                state.score++;
+                state.unitWiseStats[unit].correct++;
+
+                // Success styling
+                selectedBtn.classList.remove('bg-white/5', 'border-white/10', 'hover:bg-white/10');
+                selectedBtn.classList.add('bg-green-500/20', 'border-green-500', 'text-green-50');
+                selectedBtn.innerHTML += `<svg class="w-6 h-6 text-green-400 absolute right-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>`;
+            } else {
+                // Failure styling
+                selectedBtn.classList.remove('bg-white/5', 'border-white/10', 'hover:bg-white/10');
+                selectedBtn.classList.add('bg-red-500/20', 'border-red-500', 'text-red-50');
+                selectedBtn.innerHTML += `<svg class="w-6 h-6 text-red-400 absolute right-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>`;
+
+                // Highlight correct option
+                const correctIdx = optionsMapped.findIndex(o => o.isCorrect);
+                const correctBtn = allBtns[correctIdx];
+                correctBtn.classList.remove('bg-white/5', 'border-white/10');
+                correctBtn.classList.add('bg-green-500/20', 'border-green-500/50');
+            }
+
+            // Move to next question after delay
+            setTimeout(() => {
+                state.currentQuestionIndex++;
+                if (state.currentQuestionIndex < state.quizData.length) {
+                    showQuestion();
+                } else {
+                    showResults();
+                }
+            }, 1200);
+        }
+
+        // --- Result Logic ---
+
+        async function showResults() {
+            // Calculate final stats
+            const totalQ = state.quizData.length;
+            const percentage = Math.round((state.score / totalQ) * 100);
+
+            // Update UI
+            el.scoreText.textContent = `${state.score} / ${totalQ}`;
+            el.scorePercentage.textContent = `${percentage}%`;
+
+            // Set circle progress (stroke-dasharray goes up to 100)
+            // Color based on percentage
+            let circleColor = '#ef4444'; // red
+            if (percentage >= 80) circleColor = '#4ade80'; // green
+            else if (percentage >= 50) circleColor = '#3b82f6'; // blue
+
+            el.scoreCirclePath.setAttribute('stroke', circleColor);
+            setTimeout(() => {
+                el.scoreCirclePath.setAttribute('stroke-dasharray', `${percentage}, 100`);
+            }, 100);
+
+            // Feedback message
+            let feedback = "Needs serious revision";
+            if (percentage >= 90) feedback = "Excellent! Topper level 🏆";
+            else if (percentage >= 75) feedback = "Strong preparation 🌟";
+            else if (percentage >= 50) feedback = "Average, improve weak units 📚";
+            el.feedbackMessage.textContent = feedback;
+
+            // Render Unit Analysis or hide for PYQs
+            const resultGrid = document.getElementById('result-grid');
+            const unitAnalysisCard = document.getElementById('unit-analysis-card');
+
+            if (state.isPYQ) {
+                unitAnalysisCard.classList.add('hidden');
+                resultGrid.classList.remove('md:grid-cols-2');
+                resultGrid.classList.add('md:grid-cols-1');
+
+                switchScreen('result-screen');
+            } else {
+                unitAnalysisCard.classList.remove('hidden');
+                resultGrid.classList.remove('md:grid-cols-1');
+                resultGrid.classList.add('md:grid-cols-2');
+
+                el.unitAnalysisContainer.innerHTML = '';
+                Object.values(state.unitWiseStats).forEach(unitStat => {
+                    const unitPct = Math.round((unitStat.correct / unitStat.total) * 100);
+
+                    let barColor = 'bg-red-500';
+                    if (unitPct >= 80) barColor = 'bg-green-500';
+                    else if (unitPct >= 50) barColor = 'bg-blue-500';
+
+                    const html = `
+                        <div>
+                            <div class="flex justify-between items-end mb-1">
+                                <span class="text-sm font-medium text-gray-200">${unitStat.name}</span>
+                                <span class="text-xs text-gray-400">${unitStat.correct}/${unitStat.total} (${unitPct}%)</span>
+                            </div>
+                            <div class="w-full bg-white/5 rounded-full h-2">
+                                <div class="${barColor} h-2 rounded-full transition-all duration-1000" style="width: 0%" data-target-width="${unitPct}%"></div>
+                            </div>
+                        </div>
+                    `;
+                    el.unitAnalysisContainer.insertAdjacentHTML('beforeend', html);
+                });
+
+                switchScreen('result-screen');
+
+                // Animate unit bars
+                setTimeout(() => {
+                    const bars = el.unitAnalysisContainer.querySelectorAll('[data-target-width]');
+                    bars.forEach(bar => {
+                        bar.style.width = bar.getAttribute('data-target-width');
+                    });
+                }, 300);
+            }
+
+            // Save to SheetDB
+            submitToSheetDB(percentage);
+        }
+
+        async function submitToSheetDB(percentage) {
+            const payload = {
+                data: {
+                    Name: state.userData.Name,
+                    Email: state.userData.Email,
+                    Quiz: state.selectedQuiz.title,
+                    Score: `${state.score}/${state.quizData.length}`,
+                    Percentage: `${percentage}%`,
+                    Timestamp: new Date().toLocaleString()
+                }
+            };
+
+            try {
+                await fetch(state.SHEET_API_URL, {
+                    method: 'POST',
+                    headers: { 'Accept': 'application/json', 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
+                console.log("Result saved successfully");
+            } catch (error) {
+                console.error("Failed to save result:", error);
+            }
+        }
+
+        // Initialize App
+        window.addEventListener('DOMContentLoaded', loadQuizBoard);
+
+    </script>
+    <!-- Footer -->
+    <footer class="fixed bottom-0 left-0 w-full p-4 md:p-6 z-0 text-center animate-fade-in pointer-events-none">
+        <div
+            class="inline-block glass-card px-6 py-3 rounded-full pointer-events-auto shadow-2xl hover:bg-white/10 transition-all duration-300 transform hover:scale-105 border border-white/10">
+            <p
+                class="text-xs sm:text-sm text-gray-300 font-medium tracking-wide flex flex-wrap items-center justify-center gap-2">
+                <span> &copy; <span id="current-year"></span> QuiEZ ft.</span>
+                <a href="https://github.com/ParmanandKS" target="_blank" rel="noopener noreferrer"
+                    class="text-purple-400 hover:text-cyan-300 font-bold transition-colors duration-300 flex items-center gap-1.5 group">
+                    <svg class="w-4 h-4 group-hover:animate-bounce" fill="currentColor" viewBox="0 0 24 24"
+                        aria-hidden="true">
+                        <path fill-rule="evenodd"
+                            d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    ParmanandKS
+                </a>
+                <span class="hidden sm:inline mx-1 opacity-50">|</span>
+                <span class="hover:text-white transition-colors cursor-default hidden sm:inline">Built with 💻 &
+                    ❤️</span>
+            </p>
+        </div>
+        <script>document.getElementById('current-year').textContent = new Date().getFullYear();</script>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,46 @@
+{
+  "quizzes": [
+    {
+      "id": "software engineering",
+      "title": "Software Engineering Full Test",
+      "file": "Quizes/se.json",
+      "questions": 60,
+      "description": "Complete syllabus mock test"
+    },
+    {
+      "id": "SEPYQ",
+      "title": "Software Engineering PYQ",
+      "file": "Quizes/sepyq.json",
+      "questions": 8,
+      "description": "Previous year questions"
+    },
+    {
+      "id": "CNSPYQ",
+      "title": "Computer Network & Security PYQ",
+      "file": "Quizes/PyqCNS.json",
+      "questions": 13,
+      "description": "Previous year questions for CNS"
+    },
+    {
+      "id": "IOTPYQ",
+      "title": "Internet of Things PYQ",
+      "file": "Quizes/PyqIoT.json",
+      "questions": 21,
+      "description": "IoT Advance Diploma Exam"
+    },
+    {
+      "id": "ESPYQ",
+      "title": "Entrepreneurship & Startup PYQ",
+      "file": "Quizes/PyqES.json",
+      "questions": 10,
+      "description": "Previous year questions for Entrepreneurship"
+    },
+    {
+      "id": "PHPPYQ",
+      "title": "PHP PYQ",
+      "file": "Quizes/PyqPHP.json",
+      "questions": 8,
+      "description": "Previous year questions for PHP"
+    }
+  ]
+}
