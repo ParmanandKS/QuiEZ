@@ -15,6 +15,13 @@
       "description": "Unit-wise 50 MCQs for Data Science: Data Warehousing & Data Mining"
     },
     {
+      "id": "E-Gov",
+      "title": "E-Governance",
+      "file": "Quizes/EGovMCQ.json",
+      "questions": 40,
+      "description": "Unit-wise 40 MCQs for E-Governance Concepts and Applications"
+    },
+    {
       "id": "Entrepreneurship",
       "title": "Entrepreneurship & Startups Mock Test",
       "file": "Quizes/entrepreneurship.json",

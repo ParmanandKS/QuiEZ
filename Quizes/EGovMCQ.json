@@ -1,0 +1,456 @@
+{
+    "id": "E-Gov",
+    "title": "E-Governance",
+    "description": "Unit-wise 40 MCQs for E-Governance Concepts and Applications",
+    "totalQuestions": 40,
+    "units": {
+        "1": "Introduction to E-Governance",
+        "2": "GPR and National e-Governance Plan",
+        "3": "Architecture, Models, and Cyber Laws",
+        "4": "Indian Initiatives and Case Studies",
+        "5": "Mixed Review"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Which of the following defines Governance?",
+            "options": [
+                "A group of elected representatives",
+                "A set of rules and regulations implemented by representatives",
+                "An independent factor not depending on government",
+                "A democratic institution only"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In SMART governance, what does the letter 'R' stand for?",
+            "options": [
+                "Reliable",
+                "Responsive",
+                "Resourceful",
+                "Registered"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which of these is NOT one of the four pillars of E-Governance?",
+            "options": [
+                "People",
+                "Process",
+                "Politics",
+                "Technology"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the primary objective of G2B interaction?",
+            "options": [
+                "To provide free internet to businesses",
+                "To cut red-tapism and reduce operational costs",
+                "To allow businesses to govern citizens",
+                "To increase taxes on all industries"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "G2G interaction primarily aims to:",
+            "options": [
+                "Sell government data to private firms",
+                "Increase efficiency, performance, and output between entities",
+                "Allow citizens to vote online",
+                "Monitor employee attendance only"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In the E-Governance lifecycle, the Transformation phase is characterized by:",
+            "options": [
+                "Simple one-way information flow",
+                "Online payment for license renewals",
+                "Exhausting full use of technology to analyze and solve stakeholder problems",
+                "Setting up basic government websites"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which phase involves two-way communication such as emails and feedback forms?",
+            "options": [
+                "Presence",
+                "Interaction",
+                "Transaction",
+                "Transformation"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Identify the correct parameter difference:",
+            "options": [
+                "Government is a set of rules; Governance is a group of people",
+                "Government is an independent factor; Governance depends on the government",
+                "Government denotes policies; Governance denotes people",
+                "Government is implemented by rules; Governance is implemented by leaders"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What does GPR stand for?",
+            "options": [
+                "General Process Reports",
+                "Government Process Re-engineering",
+                "Global Positioning Research",
+                "Government Portal Registry"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "When was the National e-Governance Plan formulated in India?",
+            "options": [
+                "2000",
+                "2006",
+                "2014",
+                "1998"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which project made NeGP accessible via a mobile app?",
+            "options": [
+                "Digital India",
+                "Aadhaar",
+                "UMANG",
+                "E-Seva"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "What is a major goal of Government Process Re-engineering?",
+            "options": [
+                "Increase employees",
+                "Improve performance like cost and speed",
+                "Make system complex",
+                "Eliminate ICT"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "The Moral aspect of SMART governance refers to:",
+            "options": [
+                "Simplification of rules",
+                "Ethical system reducing corruption",
+                "Providing information online",
+                "Measuring performance"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which is a mission of NeGP?",
+            "options": [
+                "Urban-only services",
+                "Affordable services for citizens",
+                "Replace workers",
+                "End businesses"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "The Rule of Thumb report explores how many dimensions?",
+            "options": [
+                "Four",
+                "Five",
+                "Six",
+                "Eight"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which is NOT part of Rule of Thumb dimensions?",
+            "options": [
+                "Voice and Accountability",
+                "Regulatory Quality",
+                "Technological Superiority",
+                "Control of Corruption"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "What does PPP stand for?",
+            "options": [
+                "Private Public Protocol",
+                "Public Private Partnership",
+                "Personal Portal Provider",
+                "Public Policy Practice"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Cyber laws deal with:",
+            "options": [
+                "Road traffic",
+                "Hacking and identity theft",
+                "Construction",
+                "Forest conservation"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which model focuses on reporting corruption?",
+            "options": [
+                "Wider dissemination",
+                "Comparative analysis",
+                "Critical flow model",
+                "Interactive service"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Interactive Service Model is based on:",
+            "options": [
+                "One-way information",
+                "Public participation",
+                "History study",
+                "Anonymous reporting"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "PPP advantage is:",
+            "options": [
+                "Private profit only",
+                "Shared risk and efficiency",
+                "Gov loses control",
+                "Slower projects"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which act governs internet offenses in India?",
+            "options": [
+                "Communication Act 1995",
+                "IT Act 2000",
+                "Digital Security Act",
+                "Internet Rights Bill"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "CSF related to economy and politics is:",
+            "options": [
+                "Industry factors",
+                "Environmental factors",
+                "Strategic factors",
+                "Temporal factors"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Change management is:",
+            "options": [
+                "Hiring staff",
+                "Shifting to future state",
+                "Reducing computers",
+                "Avoiding risk"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "CSC stands for:",
+            "options": [
+                "Central Service Code",
+                "Common Service Centre",
+                "Citizen Support Center",
+                "Cyber Service Cell"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "CSC headquarters is located in:",
+            "options": [
+                "Mumbai",
+                "New Delhi",
+                "Patna",
+                "Bangalore"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Purpose of e-Seva in judiciary:",
+            "options": [
+                "Sell tickets",
+                "Case status and e-filing",
+                "Free legal advice",
+                "Pay bills"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which is NOT ePost Office service?",
+            "options": [
+                "EMO",
+                "Track Speed Post",
+                "Flight booking",
+                "Search PIN"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Requirement for Passport Seva appointment:",
+            "options": [
+                "Physical visit",
+                "Online payment",
+                "Leader recommendation",
+                "Buy form"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "E-Governance impacts economy by:",
+            "options": [
+                "Increasing paperwork",
+                "Increasing productivity",
+                "Reducing users",
+                "Less transparency"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "CSC multiple-services model means:",
+            "options": [
+                "One person all jobs",
+                "Multiple services at one point",
+                "One password",
+                "One CSC per state"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "The 'e' in e-Governance means:",
+            "options": [
+                "Electricity use",
+                "Use of ICT in governance",
+                "Virtual offices",
+                "Only e-voting"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Official Indian e-governance portal is:",
+            "options": [
+                "google.com",
+                "nceg.gov.in",
+                "india.gov.in",
+                "digitalindia.in"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "CCTV and alarms are examples of:",
+            "options": [
+                "Cyber Law",
+                "E-Security",
+                "GPR",
+                "PPP"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Comparative Analysis Model is used to:",
+            "options": [
+                "Broadcast news",
+                "Avoid errors using past plans",
+                "Report theft",
+                "Pay taxes"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "NeGP was formulated by:",
+            "options": [
+                "Defense Ministry",
+                "DARPG & MeitY",
+                "Finance Ministry",
+                "State Govt"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Simple in SMART governance means:",
+            "options": [
+                "One leader",
+                "Simplification via ICT",
+                "Simple English",
+                "Avoid tech"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Paying tax online is:",
+            "options": [
+                "G2G",
+                "G2B",
+                "G2C",
+                "G2E"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "Critical Success Factor means:",
+            "options": [
+                "Most employees",
+                "Vital success elements",
+                "Private resources",
+                "Avoid change"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Why is GPR important before digitization?",
+            "options": [
+                "Increase cost",
+                "Reduce complexity and time",
+                "Keep old rules",
+                "Increase burden"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        }
+    ]
+}
