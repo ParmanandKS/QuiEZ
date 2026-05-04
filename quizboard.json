@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "Java OOPs",
+      "title": "Object Oriented Programming with  Java",
+      "file": "Quizes/JavaMCQ.json",
+      "questions": 50,
+      "description": "MCQs for Java Fundamentals, OOP, and Advanced Concepts"
+    },
+    {
       "id": "Data Science",
       "title": "Data Science: Data Warehousing & Data Mining MCQ",
       "file": "Quizes/DataScienceMCQ.json",
