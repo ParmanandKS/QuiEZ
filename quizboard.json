@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "Data Science",
+      "title": "Data Science: Data Warehousing & Data Mining MCQ",
+      "file": "Quizes/DataScienceMCQ.json",
+      "questions": 50,
+      "description": "Unit-wise 50 MCQs for Data Science: Data Warehousing & Data Mining"
+    },
+    {
       "id": "Entrepreneurship",
       "title": "Entrepreneurship & Startups Mock Test",
       "file": "Quizes/entrepreneurship.json",

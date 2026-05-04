@@ -1,0 +1,566 @@
+{
+    "id": "Data Science",
+    "title": "Data Science: Data Warehousing & Data Mining MCQ",
+    "description": "Unit-wise 50 MCQs for Data Science: Data Warehousing & Data Mining",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Introduction to Data Science & Data Mining",
+        "2": "Data Warehousing & OLAP",
+        "3": "Patterns, Associations & Correlations",
+        "4": "Classification",
+        "5": "Cluster Analysis & Web Mining"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "What is the primary goal of Data Science?",
+            "options": [
+                "To build hardware",
+                "To find hidden patterns and aid decision-making",
+                "To design website layouts",
+                "To increase computer storage"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which term is also used for Data Mining?",
+            "options": [
+                "KDD",
+                "Data Entry",
+                "Spreadsheet",
+                "Cloud Computing"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Data in relational database is:",
+            "options": [
+                "Unstructured",
+                "Semi-structured",
+                "Structured",
+                "Binary"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Data Science is intersection of:",
+            "options": [
+                "CS, Art, History",
+                "CS, Math, Domain",
+                "Math, Physics",
+                "Hardware, Software"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Data cleaning is used to:",
+            "options": [
+                "Delete database",
+                "Fix errors",
+                "Combine files",
+                "Sort"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Scaling data to range is:",
+            "options": [
+                "Reduction",
+                "Normalization",
+                "Integration",
+                "Cleaning"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Similarity score 0 means:",
+            "options": [
+                "Identical",
+                "Different",
+                "Larger",
+                "Error"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Data reduction is used to:",
+            "options": [
+                "Read easily",
+                "Reduce size with same results",
+                "Add noise",
+                "Encrypt"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Nodes and edges data is:",
+            "options": [
+                "Spatial",
+                "Graph",
+                "Text",
+                "Time"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Semi-structured data example:",
+            "options": [
+                "XML",
+                "Table",
+                "Image",
+                "Audio"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "OLAP stands for:",
+            "options": [
+                "Online Legal",
+                "Online Analytical Processing",
+                "Offline",
+                "Local"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Data mart is:",
+            "options": [
+                "Global DB",
+                "Subset of warehouse",
+                "Hardware",
+                "Store"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "ODS advantage:",
+            "options": [
+                "20 yrs storage",
+                "Real-time updates",
+                "Cheap",
+                "Video"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "G in <G,S,M> is:",
+            "options": [
+                "General",
+                "Global Schema",
+                "Graph",
+                "Group"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "OLTP is for:",
+            "options": [
+                "Analysis",
+                "Daily operations",
+                "Decision support",
+                "Archive"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Tree map shows:",
+            "options": [
+                "Pie",
+                "Nested rectangles",
+                "Line",
+                "Scatter"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Multidimensional data is:",
+            "options": [
+                "Table",
+                "Cube",
+                "Line",
+                "Point"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Data cube used for:",
+            "options": [
+                "3D graphics",
+                "Fast queries",
+                "Compression",
+                "Encryption"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Data federation means:",
+            "options": [
+                "Move data",
+                "Virtual view",
+                "Delete",
+                "Single DB"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "OLAP used for:",
+            "options": [
+                "Transactions",
+                "Analysis",
+                "Storage",
+                "Backup"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Market basket analysis uses:",
+            "options": [
+                "Classification",
+                "Frequent itemset",
+                "Outlier",
+                "Integration"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Frequent patterns are:",
+            "options": [
+                "Rare",
+                "Common",
+                "Numeric",
+                "Empty"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Consequent is:",
+            "options": [
+                "First item",
+                "Result item",
+                "Price",
+                "Discount"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Sequential mining finds:",
+            "options": [
+                "Same time",
+                "Order pattern",
+                "Groups",
+                "Outliers"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Descriptive vs Predictive:",
+            "options": [
+                "Future/Past",
+                "Past/Future",
+                "Text/Number",
+                "Same"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Association rule used in:",
+            "options": [
+                "OS",
+                "Catalog design",
+                "Hardware",
+                "Compiler"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Constraint-based mining:",
+            "options": [
+                "Random",
+                "User constraints",
+                "Unsupervised",
+                "Correlation"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Constraint mining purpose:",
+            "options": [
+                "All patterns",
+                "Selected patterns",
+                "Cleaning",
+                "Storage"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Confidence in rule means:",
+            "options": [
+                "Strength",
+                "Error",
+                "Noise",
+                "Size"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "Support measures:",
+            "options": [
+                "Frequency",
+                "Distance",
+                "Error",
+                "Noise"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "Spam detection is:",
+            "options": [
+                "Clustering",
+                "Classification",
+                "Normalization",
+                "Reduction"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Classification algorithm:",
+            "options": [
+                "K-means",
+                "Neural network",
+                "Box plot",
+                "ETL"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Tree ends in:",
+            "options": [
+                "Fruit",
+                "Leaf",
+                "Stem",
+                "Seed"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "K in KNN:",
+            "options": [
+                "Classes",
+                "Neighbors",
+                "Size",
+                "Depth"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Ensemble learning:",
+            "options": [
+                "Single model",
+                "Multiple models",
+                "Reduce size",
+                "Feature select"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Lazy learners:",
+            "options": [
+                "Train early",
+                "Train later",
+                "Small data",
+                "Fast training"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Classification means:",
+            "options": [
+                "Group",
+                "Assign class",
+                "Mean",
+                "Summarize"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Bayesian based on:",
+            "options": [
+                "Euclid",
+                "Bayes",
+                "Newton",
+                "Moore"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Clustering vs classification:",
+            "options": [
+                "Labels/no labels",
+                "No labels/labels",
+                "Text/number",
+                "Same"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Posterior probability is:",
+            "options": [
+                "Prior",
+                "Posterior",
+                "Likelihood",
+                "Evidence"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Cluster means:",
+            "options": [
+                "Different",
+                "Similar",
+                "Random",
+                "Sorted"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Clustering type:",
+            "options": [
+                "Supervised",
+                "Unsupervised",
+                "Semi",
+                "Manual"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Page ranking uses:",
+            "options": [
+                "K-means",
+                "PageRank",
+                "Apriori",
+                "ID3"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "K-means divides:",
+            "options": [
+                "Tree",
+                "K groups",
+                "Density",
+                "Grid"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Hierarchical result:",
+            "options": [
+                "Histogram",
+                "Dendrogram",
+                "Scatter",
+                "Pie"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Web content mining:",
+            "options": [
+                "Links",
+                "Page data",
+                "Logs",
+                "Server"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Hub means:",
+            "options": [
+                "No info",
+                "Links to authorities",
+                "Popular",
+                "No links"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Outliers help find:",
+            "options": [
+                "Average",
+                "Fraud",
+                "Frequent",
+                "Schema"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Web mining deals with:",
+            "options": [
+                "Excel",
+                "Web data",
+                "Sensors",
+                "Manual"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "DBSCAN finds:",
+            "options": [
+                "Spherical",
+                "Any shape",
+                "Fixed k",
+                "Tree"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        }
+    ]
+}
