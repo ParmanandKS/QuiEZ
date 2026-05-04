@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "Entrepreneurship",
+      "title": "Entrepreneurship & Startups Mock Test",
+      "file": "Quizes/entrepreneurship.json",
+      "questions": 60,
+      "description": "SBTE Bihar Diploma Full-Length Mock (60 MCQs)"
+    },
+    {
       "id": "software engineering",
       "title": "Software Engineering Full Test",
       "file": "Quizes/se.json",
