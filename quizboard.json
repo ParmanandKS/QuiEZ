@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "IoT-Advance",
+      "title": "IoT Advance MCQs.",
+      "file": "Quizes/IoTMCQ.json",
+      "questions": 50,
+      "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
+    },
+    {
       "id": "Java OOPs",
       "title": "Object Oriented Programming with  Java",
       "file": "Quizes/JavaMCQ.json",

@@ -1,0 +1,566 @@
+{
+    "id": "IoT-Advance",
+    "title": "IoT Advance",
+    "description": "SBTE IoT Advance: Unit-wise 50 MCQs",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Python Basics",
+        "2": "Python Advance",
+        "3": "Cloud Features",
+        "4": "IoT Networking and Application",
+        "5": "IoT App Development"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Which of the following is a rule for naming a Python variable?",
+            "options": [
+                "Can start with a number",
+                "Must start with a letter or underscore",
+                "Can contain spaces",
+                "Case insensitive"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What is the extension used to save a Python script file?",
+            "options": [
+                ".txt",
+                ".java",
+                ".py",
+                ".python"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which escape character is used to move the cursor to a new line?",
+            "options": [
+                "\\t",
+                "\\b",
+                "\\n",
+                "\\\\"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which collection data type is unordered, unchangeable, and does not allow duplicates?",
+            "options": [
+                "List",
+                "Tuple",
+                "Set",
+                "Dictionary"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the result of 5 // 3?",
+            "options": [
+                "1.66",
+                "1",
+                "2",
+                "0"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "How do you create a 2D array using numpy?",
+            "options": [
+                "nm.array([1,2,3])",
+                "nm.array([[1,2,3],[4,5,6]])",
+                "nm.array(1,2,3,4)",
+                "nm.2darray(1,2)"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In a Python Dictionary, items are referred by:",
+            "options": [
+                "Index number",
+                "Value only",
+                "Key name",
+                "Position"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which operator checks if both variables are the same object?",
+            "options": [
+                "in",
+                "==",
+                "is",
+                "and"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the output of print(f\"{5 > 3 and 10 < 8}\")?",
+            "options": [
+                "True",
+                "False",
+                "Error",
+                "5"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which method adds an element at the end of an array?",
+            "options": [
+                "insert()",
+                "append()",
+                "extend()",
+                "reverse()"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which keyword is used to define a function in Python?",
+            "options": [
+                "function",
+                "define",
+                "def",
+                "lambda"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "What does upper() do?",
+            "options": [
+                "Capitalize first letter",
+                "Convert to uppercase",
+                "Reverse string",
+                "Count characters"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which statement acts as a placeholder?",
+            "options": [
+                "break",
+                "continue",
+                "pass",
+                "exit"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Constructor in Python is named:",
+            "options": [
+                "__init__()",
+                "__const__()",
+                "__start__()",
+                "self()"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Which loop executes at least once?",
+            "options": [
+                "for",
+                "while",
+                "do-while",
+                "nested"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Lambda functions are:",
+            "options": [
+                "Named",
+                "Anonymous",
+                "Multiple expressions",
+                "No arguments"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which inheritance involves multiple parents?",
+            "options": [
+                "Single",
+                "Multilevel",
+                "Hierarchical",
+                "Multiple"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "len(\"Hello World!\") gives:",
+            "options": [
+                "10",
+                "11",
+                "12",
+                "13"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "What does self represent?",
+            "options": [
+                "Parent class",
+                "Instance reference",
+                "Library",
+                "Global variable"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which function returns quotient and remainder?",
+            "options": [
+                "div()",
+                "mod()",
+                "divmod()",
+                "round()"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "SaaS stands for:",
+            "options": [
+                "Storage as a Service",
+                "Software as a Service",
+                "System as a Service",
+                "Security as a Service"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Standard beginner Arduino board is:",
+            "options": [
+                "Mega",
+                "Uno",
+                "Lilypad",
+                "Red board"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Raspberry Pi is a:",
+            "options": [
+                "Microcontroller",
+                "Single Board Computer",
+                "Sensor",
+                "Cloud Server"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "IaaS provides:",
+            "options": [
+                "Software",
+                "Platform",
+                "Infrastructure",
+                "Private cloud"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Heart of Arduino is:",
+            "options": [
+                "USB",
+                "Power jack",
+                "Microcontroller",
+                "Ports"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Hybrid cloud is:",
+            "options": [
+                "Public",
+                "Private",
+                "Combination",
+                "Community"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Arduino program is called:",
+            "options": [
+                "Script",
+                "Sketch",
+                "Code",
+                "App"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Raspberry Pi 4 RAM:",
+            "options": [
+                "512MB",
+                "1GB",
+                "8GB",
+                "2GB"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Dedicated cloud connection is:",
+            "options": [
+                "Internet",
+                "Direct connect",
+                "SD WAN",
+                "Hybrid"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Object storage stores data as:",
+            "options": [
+                "Files",
+                "Blocks",
+                "Objects",
+                "Public"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "RFID stands for:",
+            "options": [
+                "Radio Frequency Identification",
+                "Radio Filter ID",
+                "Rapid Frequency",
+                "Remote Frequency"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "SMS was introduced in:",
+            "options": [
+                "1G",
+                "2G",
+                "3G",
+                "4G"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "LPWAN is for:",
+            "options": [
+                "High power",
+                "Low power long range",
+                "High speed",
+                "Wired"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "RFID advantage:",
+            "options": [
+                "Cheap",
+                "Line of sight",
+                "No line-of-sight multiple reads",
+                "Manual"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Sigfox USA frequency:",
+            "options": [
+                "868 MHz",
+                "902 MHz",
+                "2.4 GHz",
+                "433 MHz"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "LoRa relay device:",
+            "options": [
+                "Server",
+                "Gateway",
+                "App server",
+                "Device"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "M2M means:",
+            "options": [
+                "Men to Men",
+                "Machine to Machine",
+                "Mobile",
+                "Memory"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Subset of IoT hardware communication:",
+            "options": [
+                "LPWAN",
+                "M2M",
+                "SaaS",
+                "RFID"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Sigfox max data rate:",
+            "options": [
+                "100 Mbps",
+                "100 kbps",
+                "100 bps",
+                "20 kbps"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "VoLTE used in:",
+            "options": [
+                "2G",
+                "3G",
+                "4G",
+                "5G"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "First stage of IoT development:",
+            "options": [
+                "Implementation",
+                "Framework selection",
+                "Testing",
+                "Deployment"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Bug finding phase:",
+            "options": [
+                "Identify",
+                "Testing & Integration",
+                "Maintenance",
+                "Development"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Maintenance is for:",
+            "options": [
+                "Delete",
+                "Improve",
+                "Build",
+                "Select"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Feature identification stage:",
+            "options": [
+                "Deploy",
+                "Identify",
+                "Framework",
+                "Maintain"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Data connectors belong to:",
+            "options": [
+                "Testing",
+                "Framework",
+                "Maintenance",
+                "Integration"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "After development comes:",
+            "options": [
+                "Testing",
+                "Identify",
+                "Framework",
+                "Coding"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "Framework includes:",
+            "options": [
+                "UI only",
+                "Data connectors & architecture",
+                "Power supply",
+                "Barcode"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "IoT connects:",
+            "options": [
+                "Computers",
+                "Devices, data, users",
+                "Variables",
+                "Printers"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Integration ensures:",
+            "options": [
+                "Hardware & software work together",
+                "Write code",
+                "Cloud selection",
+                "Define lambda"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "Post-deployment stage:",
+            "options": [
+                "Testing",
+                "Implementation",
+                "Maintain & improve",
+                "Framework"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        }
+    ]
+}
