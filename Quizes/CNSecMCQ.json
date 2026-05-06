@@ -1,0 +1,567 @@
+{
+    "id": "cns",
+    "title": "Computer Network & Security important MCQs",
+    "description": "Sharpen your concepts of network, security, cryptography, network protection, and modern security protocols with this comprehensive unit-wise quiz designed for SBTE diploma success.",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Attacks & Computer Security Fundamentals",
+        "2": "Cryptography Mathematics & DES",
+        "3": "Symmetric Key Cryptography (AES & Others)",
+        "4": "Asymmetric Key Cryptography",
+        "5": "Hashing, Authentication & Digital Signatures",
+        "6": "Network & Email Security"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Who is known as the father of computer security?",
+            "options": [
+                "Claude Shannon",
+                "August Kerckhoffs",
+                "Phil Zimmerman",
+                "Horst Feistel"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which security objective ensures that data is not modified by unauthorized users?",
+            "options": [
+                "Confidentiality",
+                "Availability",
+                "Integrity",
+                "Authenticity"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which attack disrupts services by flooding the network with requests?",
+            "options": [
+                "Phishing",
+                "Denial of Service",
+                "Eavesdropping",
+                "Spoofing"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Falsifying an IP address to impersonate another system is called:",
+            "options": [
+                "Social Engineering",
+                "Malware",
+                "Spoofing",
+                "Backdoor"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which technique hides the existence of a message?",
+            "options": [
+                "Steganography",
+                "Cryptography",
+                "Cryptanalysis",
+                "Biometrics"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Transposition cipher works by:",
+            "options": [
+                "Replacing characters",
+                "Using asymmetric keys",
+                "Rearranging characters",
+                "Encrypting twice"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Capturing data while it travels on a network is called:",
+            "options": [
+                "Modification",
+                "Sniffing",
+                "Interruption",
+                "Fabrication"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Availability ensures that:",
+            "options": [
+                "Data is encrypted",
+                "Systems are accessible when needed",
+                "Passwords are strong",
+                "Data is hidden"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Effective key size of DES is:",
+            "options": [
+                "64-bit",
+                "128-bit",
+                "56-bit",
+                "168-bit"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "DES is based on which structure?",
+            "options": [
+                "Rijndael",
+                "Feistel",
+                "Stream Cipher",
+                "Elliptic Curve"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which DES mode encrypts blocks independently?",
+            "options": [
+                "CBC",
+                "OFB",
+                "ECB",
+                "CTR"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "2DES is vulnerable due to:",
+            "options": [
+                "Brute force",
+                "Meet-in-the-middle attack",
+                "Parity bits",
+                "Block size"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which attack uses power consumption or timing?",
+            "options": [
+                "Differential",
+                "Side-channel",
+                "Linear",
+                "Sweet32"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "3DES was approved till:",
+            "options": [
+                "2025",
+                "2030",
+                "2015",
+                "2040"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "DES performs how many rounds?",
+            "options": [
+                "10",
+                "12",
+                "16",
+                "14"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "AES standard was established by:",
+            "options": [
+                "IBM",
+                "NIST",
+                "IEEE",
+                "ISO"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "In GF(2), addition is:",
+            "options": [
+                "AND",
+                "OR",
+                "XOR",
+                "NOT"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Blowfish is a:",
+            "options": [
+                "IDEA",
+                "Block cipher",
+                "AES",
+                "RC4"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "AES rounds depend on:",
+            "options": [
+                "Plaintext",
+                "Block size",
+                "Key length",
+                "OS"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which is a stream cipher?",
+            "options": [
+                "AES",
+                "DES",
+                "RC4",
+                "Blowfish"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "IDEA uses key size:",
+            "options": [
+                "56-bit",
+                "64-bit",
+                "128-bit",
+                "256-bit"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "AES state matrix size:",
+            "options": [
+                "8",
+                "16",
+                "32",
+                "64"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Rijndael name comes from:",
+            "options": [
+                "Speed",
+                "Inventors",
+                "City",
+                "Matrix"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Asymmetric cryptography is also called:",
+            "options": [
+                "Secret key",
+                "Public key",
+                "Symmetric",
+                "Shared key"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "RSA security is based on:",
+            "options": [
+                "Logs",
+                "Prime factorization",
+                "Matrix",
+                "Sorting"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "To send secure data, encrypt using:",
+            "options": [
+                "Sender private key",
+                "Sender public key",
+                "Receiver public key",
+                "Receiver private key"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "ECC uses:",
+            "options": [
+                "RSA",
+                "Diffie-Hellman",
+                "Elliptic curves",
+                "DES"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Certificate Authority does:",
+            "options": [
+                "Encrypt",
+                "Issue certificates",
+                "Firewall",
+                "Store passwords"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "PKI stands for:",
+            "options": [
+                "Private key",
+                "Public Key Infrastructure",
+                "Personal key",
+                "Public integration"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Digital certificates use:",
+            "options": [
+                "X.500",
+                "X.509",
+                "X.400",
+                "X.25"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "In RSA, n is:",
+            "options": [
+                "Random",
+                "Product of primes",
+                "Exponent",
+                "Base"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "MD5 produces:",
+            "options": [
+                "160-bit",
+                "128-bit",
+                "256-bit",
+                "512-bit"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "MAC requires:",
+            "options": [
+                "Length",
+                "Secret key",
+                "Salt",
+                "Compression"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "SHA-1 replaced:",
+            "options": [
+                "SHA-2",
+                "SHA-0",
+                "SHA-3",
+                "SHA-256"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Kerberos is used for:",
+            "options": [
+                "Email",
+                "Authentication",
+                "Compression",
+                "History"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Digital signature uses:",
+            "options": [
+                "Public key",
+                "Private key",
+                "Shared key",
+                "IP"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Digital signatures provide:",
+            "options": [
+                "Confidentiality",
+                "Non-repudiation",
+                "Speed",
+                "Storage"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Collision occurs when:",
+            "options": [
+                "Same hash",
+                "Short key",
+                "Crash",
+                "Double encryption"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "HMAC is used for:",
+            "options": [
+                "RSA",
+                "MAC",
+                "DH",
+                "PGP"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Protocol securing web communication:",
+            "options": [
+                "PGP",
+                "SSL",
+                "FTP",
+                "SMTP"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "TLS is successor of:",
+            "options": [
+                "IPSec",
+                "SSL",
+                "Kerberos",
+                "DES"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "MTA stands for:",
+            "options": [
+                "Mail Transfer Agent",
+                "Ticket Authority",
+                "Terminal Access",
+                "Thread Agent"
+            ],
+            "correctIndex": 0,
+            "unit": 6
+        },
+        {
+            "question": "PGP was created by:",
+            "options": [
+                "Schneier",
+                "Phil Zimmerman",
+                "Rivest",
+                "Diffie"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "S/MIME is used for:",
+            "options": [
+                "Browser",
+                "Secure Email",
+                "Routing",
+                "Passwords"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "IPSec ESP provides:",
+            "options": [
+                "Auth only",
+                "Encryption",
+                "Routing",
+                "Physical"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Firewall acts as:",
+            "options": [
+                "Scanner",
+                "Barrier",
+                "Key tool",
+                "Backup"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "SSL/TLS operates at:",
+            "options": [
+                "Network",
+                "Transport",
+                "Physical",
+                "Data Link"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "WAP security is for:",
+            "options": [
+                "Satellite",
+                "Mobile",
+                "LAN",
+                "Mainframe"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "IPSec AH provides:",
+            "options": [
+                "Encryption",
+                "Integrity & Authentication",
+                "Compression",
+                "Routing"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Which protocol is used to securely transfer files over a network?",
+            "options": [
+                "HTTP",
+                "FTP",
+                "SFTP",
+                "SMTP"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        }
+    ]
+}

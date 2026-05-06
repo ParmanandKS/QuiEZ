@@ -2,10 +2,17 @@
   "quizzes": [
     {
       "id": "IoT-Advance",
-      "title": "IoT Advance MCQs.",
+      "title": "IoT Advance MCQs",
       "file": "Quizes/IoTMCQ.json",
       "questions": 50,
       "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
+    },
+    {
+      "id": "cns",
+      "title": "Computer Network & Security important MCQs",
+      "file": "Quizes/CNSecMCQ.json",
+      "questions": 50,
+      "description": "Sharpen your concepts of network, security, cryptography, network protection, and modern security protocols with this comprehensive unit-wise quiz designed for SBTE diploma success."
     },
     {
       "id": "Java OOPs",
