@@ -1,0 +1,223 @@
+{
+    "title": "Public Health Engineering (2015602) PYQ",
+    "description": "Previous Year Questions for Civil Engineering (Theory) - Public Health Engineering covering water treatment, sanitation, wastewater management, plumbing systems, and environmental engineering concepts.",
+    "totalQuestions": 20,
+    "questions": [
+        {
+            "question": "Water pollution can be caused by excess __________ from industries and __________ from agricultural runoff.",
+            "options": [
+                "heavy metals, fertilizers",
+                "phosphates, methane",
+                "fertilizers, heavy metals",
+                "methane, phosphates"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Which sanitary fitting is specifically designed for urination?",
+            "options": [
+                "Flushing cistern",
+                "Wash basin",
+                "Urinal",
+                "Sink"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "In the activated sludge process, which of the following is used to facilitate the growth of microorganisms?",
+            "options": [
+                "Carbon dioxide",
+                "Oxygen",
+                "Biosolids",
+                "Nitrogen"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What is the primary purpose of a sedimentation tank in wastewater treatment?",
+            "options": [
+                "To add chlorine for disinfection",
+                "To aerate the water",
+                "To remove solid wastes through settling",
+                "To filter out microscopic bacteria"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "In solid waste management, the main function of an __________ is to reduce volume, while a __________ helps to separate recyclables.",
+            "options": [
+                "Landfill, sorting facility",
+                "Incinerator, sorting facility",
+                "Recycling bin, incinerator",
+                "Landfill, recycling bin"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "The process of filtration is used to remove suspended particles from water in a wastewater treatment plant.",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Are landfills considered the most sustainable method of managing solid waste in the long term?",
+            "options": [
+                "True",
+                "False"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which process is commonly used as a disinfection method in drinking water treatment?",
+            "options": [
+                "Aeration",
+                "Sedimentation",
+                "Chlorination",
+                "Coagulation"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the primary function of a trap in a building's plumbing system?",
+            "options": [
+                "To increase the flow of water",
+                "To retain water and prevent foul gases from entering the building",
+                "To filter out large debris",
+                "To store excess wastewater"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Composting is an __________ process that converts organic waste into soil amendments.",
+            "options": [
+                "Anaerobic",
+                "Aerobic",
+                "Thermal",
+                "Chemical"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What is the chemical name of bleaching powder?",
+            "options": [
+                "Sodium hypochlorite",
+                "Calcium chloride",
+                "Calcium hypochlorite",
+                "Sodium chloride"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "When is double chlorination typically adopted in water treatment?",
+            "options": [
+                "During routine maintenance",
+                "When the water is exceptionally clear",
+                "When there is an epidemic in the locality",
+                "Only for industrial-grade water"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which of the following is another name for a Trickling Filter?",
+            "options": [
+                "Aeration tank",
+                "Biofilter",
+                "Septic tank",
+                "Rapid sand filter"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "A septic tank functions as which of the following?",
+            "options": [
+                "Only settling tank",
+                "Only digestion tank",
+                "Both settling and digestion tank",
+                "Settling, digestion and aeration tank"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which of the following water quality parameters is NOT correctly matched with its determination method?",
+            "options": [
+                "Hardness: EDTA Method",
+                "Dissolved Oxygen: Winkler’s Method",
+                "Chlorine: Orthotolidine test",
+                "Chloride: SPADNS Method"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "According to Kuichling’s formula, the fire demand of water (Q) in liters/minute is given by:",
+            "options": [
+                "Q = 3182P",
+                "Q = 3182√P",
+                "Q = 4637√P [1 − 0.01√P]",
+                "Q = 5663√P"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Aerobic reactions take place in the presence of __________ and produce stable __________ end products.",
+            "options": [
+                "Light, organic",
+                "Free oxygen, inorganic",
+                "Methane, organic",
+                "Free oxygen, organic"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which statement is true regarding the drainage of buildings?",
+            "options": [
+                "One pipe system is cheaper than the single stack system",
+                "Single stack system is generally more economical than the one pipe system",
+                "Both systems cost exactly the same",
+                "One pipe system is only used for industrial waste"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "In a septic tank, the outlet pipe is typically kept about _________ lower than the inlet pipe.",
+            "options": [
+                "5 cm",
+                "10 cm",
+                "15 cm",
+                "25 cm"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Match the pollutants with their permissible limits in the absence of alternate sources.",
+            "options": [
+                "Chloride-1000 mg/l, Sulphate-400 mg/l, Total Alkalinity-600 mg/l",
+                "Chloride-400 mg/l, Sulphate-1000 mg/l, Total Alkalinity-600 mg/l",
+                "Chloride-600 mg/l, Sulphate-400 mg/l, Total Alkalinity-1000 mg/l",
+                "Chloride-1000 mg/l, Sulphate-600 mg/l, Total Alkalinity-400 mg/l"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        }
+    ]
+}

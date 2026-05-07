@@ -8,6 +8,13 @@
       "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
     },
     {
+      "id": "PHE2015602",
+      "title": "Public Health Engineering (2015602) PYQ",
+      "file": "Quizes/PyqPHE.json",
+      "questions": 20,
+      "description": "Public Health Engineering Previous Year Questions for Civil Engineering."
+    },
+    {
       "id": "cns",
       "title": "Computer Network & Security important MCQs",
       "file": "Quizes/CNSecMCQ.json",
