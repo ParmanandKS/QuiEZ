@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "DSWM",
+      "title": "Data Mining & Data Warehousing PYQ",
+      "file": "Quizes/PyqDSWM.json",
+      "questions": 15,
+      "description": "Data Science: Data Warehousing & Data Mining 2024 & 2025 PYQ"
+    },
+    {
       "id": "IoT-Advance",
       "title": "IoT Advance MCQs",
       "file": "Quizes/IoTMCQ.json",

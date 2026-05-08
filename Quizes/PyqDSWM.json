@@ -1,0 +1,172 @@
+{
+    "title": "Data Mining & Data Warehousing PYQ",
+    "description": "Data Science: Data Warehousing & Data Mining 2024 & 2025 PYQ",
+    "totalQuestions": 15,
+    "questions": [
+        {
+            "question": "___________ involves identifying and removing errors or inconsistencies in the data, such as duplicate records or missing values.",
+            "options": [
+                "Data shopping",
+                "Data Cleaning",
+                "Data augmentation",
+                "Data integration"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "___________ is the process of reducing the volume of data by eliminating redundant or irrelevant information.",
+            "options": [
+                "Data Enhancement",
+                "Data Reduction",
+                "Data processing",
+                "Data Integration"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "What does the abbreviation OLAP stand for in the context of data management?",
+            "options": [
+                "Online analysis Processing",
+                "Online Analytical Processing",
+                "Offline Analytical Processing",
+                "Online Attribute Processing"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "In the realm of data management, the abbreviation DW stands for:",
+            "options": [
+                "Data Warehousing",
+                "Data basket",
+                "Data mining",
+                "Data Working"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "_________ is the process of discovering interesting relationships or patterns that occur frequently within a dataset.",
+            "options": [
+                "Mining Frequent Patterns",
+                "Mining Frequent postures",
+                "Mining Frequency Patterns",
+                "Data visualization"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "_________ refer to the techniques used to assess the quality and significance of discovered patterns or associations.",
+            "options": [
+                "Pattern Evolution Methods",
+                "Pattern Evaluation Methods",
+                "Pattern Evaluation measurement",
+                "Pattern Creation"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Support Vector Machine (SVM) is primarily used for which type of task?",
+            "options": [
+                "Clustering",
+                "Classification",
+                "Data Cleaning",
+                "Data Reduction"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which of the following algorithms is primarily used by Google for ranking search results?",
+            "options": [
+                "PageRank",
+                "Apriori",
+                "K-means",
+                "DBSCAN"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "Which of the following is NOT a major data mining task?",
+            "options": [
+                "Classification",
+                "Regression",
+                "Data Cleaning",
+                "Clustering"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "In classification, a decision tree splits data based on __________.",
+            "options": [
+                "Randomness",
+                "Attributes",
+                "Tuples",
+                "Classes"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "DBSCAN is an example of __________ clustering.",
+            "options": [
+                "Partitioning-based",
+                "Density-based",
+                "Hierarchical",
+                "Model-based"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Identify the odd one out related to data preprocessing:",
+            "options": [
+                "Data Cleaning",
+                "Data Integration",
+                "Data Reduction",
+                "Classification"
+            ],
+            "correctIndex": 3,
+            "unit": 1
+        },
+        {
+            "question": "Identify the odd one out in OLAP operations:",
+            "options": [
+                "Roll-up",
+                "Drill-down",
+                "Slice",
+                "Join"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "________ mining refers to discovering interesting patterns from the internet.",
+            "options": [
+                "Data",
+                "Web",
+                "Structure",
+                "OLAP"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Snowflake schema is more __________ than Star schema.",
+            "options": [
+                "Denormalized",
+                "Normalized",
+                "Redundant",
+                "Unstructured"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        }
+    ]
+}
