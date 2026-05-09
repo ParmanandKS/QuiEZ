@@ -1,0 +1,565 @@
+{
+    "title": "PHP Programming Important MCQs",
+    "description": "PHP Programming wise 50MCQ for SBTE Bihar.",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Expressions and Control Statements in PHP",
+        "2": "Arrays, Functions, and Graphics",
+        "3": "Apply Object Oriented Concepts in PHP",
+        "4": "Creating and Validating Forms",
+        "5": "Database Operations"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "What does PHP stand for?",
+            "options": [
+                "Preprocessor Home Page",
+                "Pretext Hypertext Processor",
+                "Hypertext Preprocessor",
+                "Personal Hyper Processor"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Who is recognized as the father of PHP?",
+            "options": [
+                "Rasmus Lerdorf",
+                "Drek Kolkevi",
+                "Willam Makepiece",
+                "James Gosling"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Which of the following is the default file extension for PHP files?",
+            "options": [
+                ".html",
+                ".xml",
+                ".php",
+                ".ph"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which symbol is used to declare a variable in PHP?",
+            "options": [
+                "#",
+                "@",
+                "$",
+                "%"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Between 'echo' and 'print', which statement is comparatively faster?",
+            "options": [
+                "print",
+                "echo",
+                "Both are identical in speed",
+                "Neither"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which keyword is required to begin a function definition in PHP?",
+            "options": [
+                "fun",
+                "def",
+                "function",
+                "function_start"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "PHP variables are case-sensitive. Is this statement true or false?",
+            "options": [
+                "True",
+                "False",
+                "Only for numbers",
+                "Only for objects"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "How many main parameters are typically used in a 'for' loop?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which of the following is NOT a valid data type in PHP?",
+            "options": [
+                "Objects",
+                "Null",
+                "void",
+                "Resources"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "A 'while' loop is considered which type of control loop?",
+            "options": [
+                "Exit control",
+                "Entry control",
+                "Logical control",
+                "Static control"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "PHP’s numerically indexed arrays begin at which position?",
+            "options": [
+                "1",
+                "-1",
+                "0",
+                "2"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which function is used to add a value to the end of an existing array?",
+            "options": [
+                "array_push()",
+                "array_unshift()",
+                "into_array()",
+                "add_end()"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Reusability and easier error detection are benefits of using what?",
+            "options": [
+                "Loops",
+                "Variables",
+                "Functions",
+                "Comments"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which function returns true if a variable is an array and false otherwise?",
+            "options": [
+                "this_array()",
+                "check_array()",
+                "is_array()",
+                "in_array()"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "How many types of arrays are available in PHP?",
+            "options": [
+                "2",
+                "3",
+                "4",
+                "5"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which function is used to calculate a 32-bit CRC for a string?",
+            "options": [
+                "crc32()",
+                "crypt()",
+                "heb32()",
+                "md5()"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Which function is used to convert characters to HTML entities?",
+            "options": [
+                "html_convert()",
+                "htmlentities()",
+                "char_to_html()",
+                "encode_html()"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which quote type in PHP processes special characters and variables inside the quotes?",
+            "options": [
+                "Single quotes",
+                "Double quotes",
+                "Backticks",
+                "None of the above"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "How many functions does PHP offer for searching strings using POSIX style regular expressions?",
+            "options": [
+                "7",
+                "8",
+                "9",
+                "10"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Which function is used to get the value of the previous element in an array?",
+            "options": [
+                "previous()",
+                "back()",
+                "last()",
+                "prev()"
+            ],
+            "correctIndex": 3,
+            "unit": 2
+        },
+        {
+            "question": "Which version of PHP introduced advanced Object-Oriented Programming concepts?",
+            "options": [
+                "PHP 4",
+                "PHP 5",
+                "PHP 6",
+                "PHP 3"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which keyword is used to inherit a subclass from a superclass?",
+            "options": [
+                "implements",
+                "inherit",
+                "extends",
+                "include"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which keyword refers to properties or methods within the class itself?",
+            "options": [
+                "$this",
+                "self",
+                "parent",
+                "private"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "Which magic method is recognized as the constructor in PHP?",
+            "options": [
+                "_construct()",
+                "__construct()",
+                "build()",
+                "classname()"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which keyword allows class members to be used without instantiating the class?",
+            "options": [
+                "protected",
+                "final",
+                "static",
+                "public"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which function is used to determine if a specific class has been defined?",
+            "options": [
+                "exist_class()",
+                "class_exists()",
+                "is_class()",
+                "check_class()"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What is an abstract class?",
+            "options": [
+                "A class that can be copied but not inherited",
+                "A class that can be instantiated directly",
+                "A class that cannot be instantiated, only inherited",
+                "A class that has no methods"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which method scope prevents a method from being overridden by a subclass?",
+            "options": [
+                "Abstract",
+                "Protected",
+                "Final",
+                "Private"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "A function in PHP starting with a double underscore (__) is known as a:",
+            "options": [
+                "Built-in Function",
+                "Magic Function",
+                "User-defined Function",
+                "Default Function"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which function encodes a value of any type into a string?",
+            "options": [
+                "encode()",
+                "stringify()",
+                "serialize()",
+                "encrypt()"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which method should NOT be used for sending passwords or sensitive data?",
+            "options": [
+                "POST",
+                "GET",
+                "REQUEST",
+                "SESSION"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which function is used to start or resume a session in PHP?",
+            "options": [
+                "session_begin()",
+                "start_session()",
+                "session_start()",
+                "begin_session()"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "In PHP, which function is used to set a cookie?",
+            "options": [
+                "setcookie()",
+                "create_cookie()",
+                "cookie_set()",
+                "savecookie()"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "What is the very first task executed by a session-enabled page?",
+            "options": [
+                "Start a new session immediately",
+                "Check whether a valid session already exists",
+                "Delete all cookies",
+                "Encrypt the URL"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "What is the default PHP session name?",
+            "options": [
+                "PHPSESSIONID",
+                "PHPIDSESS",
+                "PHPSESSID",
+                "SESSID"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which superglobal variable is used to retrieve information from a cookie?",
+            "options": [
+                "$_GET",
+                "$_SESSION",
+                "$_COOKIE",
+                "$_REQUEST"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which function checks if a cookie has been set?",
+            "options": [
+                "is_set()",
+                "isset()",
+                "checkcookie()",
+                "cookie_exists()"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "If the expire time is not specified in setcookie(), when does the cookie expire?",
+            "options": [
+                "After 24 hours",
+                "After 1 week",
+                "When the browser is closed",
+                "Never"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "If 'session.use_cookie' is set to 0, how is session information passed?",
+            "options": [
+                "Via Cookies",
+                "Via URL rewriting",
+                "Via hidden form fields only",
+                "It is not passed at all"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "The 'session.cookie_lifetime' directive value is measured in what unit?",
+            "options": [
+                "Minutes",
+                "Hours",
+                "Seconds",
+                "Milliseconds"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which database has PHP supported almost since its beginning?",
+            "options": [
+                "Oracle",
+                "SQL Server",
+                "MySQL",
+                "Access"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "What is the most popular Open Source SQL database management system?",
+            "options": [
+                "Oracle",
+                "MySQL",
+                "MS SQL",
+                "SQLite"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which statement is used to create a new table in a database?",
+            "options": [
+                "MAKE TABLE",
+                "NEW TABLE",
+                "CREATE TABLE",
+                "ADD TABLE"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "The updated MySQL extension released with PHP 5 is called:",
+            "options": [
+                "mysql",
+                "mysqli",
+                "mysql_new",
+                "pdo_mysql"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which file needs to be edited to enable the mysqli extension?",
+            "options": [
+                "config.inc",
+                "php.ini",
+                "mysqli.conf",
+                "web.xml"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which line is correct for instantiating the mysqli class in PHP?",
+            "options": [
+                "mysqli = new mysqli()",
+                "$mysqli = new mysqli()",
+                "new.mysqli($mysqli)",
+                "$mysqli->mysqli()"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which statement allows you to change the overall characteristics of a database?",
+            "options": [
+                "UPDATE DATABASE",
+                "CHANGE DATABASE",
+                "ALTER DATABASE",
+                "MODIFY DATABASE"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "In which version of PHP was the MySQL Native Driver (mysqlnd) introduced?",
+            "options": [
+                "PHP 5.1",
+                "PHP 5.2",
+                "PHP 5.3",
+                "PHP 5.0"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "Which method returns the error code from the execution of the last MySQL function?",
+            "options": [
+                "errorno()",
+                "errno()",
+                "errornumber()",
+                "get_error()"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Propagation of SQL statements from a master to a slave is known as:",
+            "options": [
+                "Query-based replication",
+                "Statement-based replication",
+                "Master-slave sync",
+                "Data mirroring"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        }
+    ]
+}
