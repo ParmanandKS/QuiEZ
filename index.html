@@ -693,7 +693,7 @@
                 state.wrongAnswersJson = JSON.stringify(state.wrongAnswers);
             }
 
-            const delay = isCorrect ? 1200 : 5000;
+            const delay = isCorrect ? 1000 : 5000;
 
             if (!isCorrect) {
                 // Show delay indicator
@@ -859,7 +859,7 @@
                     Name: state.userData.Name,
                     Email: state.userData.Email,
                     QuizID: state.selectedQuiz.id || state.selectedQuiz.title,
-                    Score: `${percentage}%`
+                    Score: `${percentage*100}%`
                 }
             };
 
