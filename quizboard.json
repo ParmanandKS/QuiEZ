@@ -8,6 +8,20 @@
       "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
     },
     {
+      "id": "CPMCQs",
+      "title": "Programming in C - Important MCQs",
+      "file": "Quizes/CProgrammingMCQ.json",
+      "questions": 45,
+      "description": "Unit-wise MCQs on C programming, algorithms, arrays, functions, pointers, and control structures for diploma exam preparation."
+    },
+    {
+      "id": "WTMCQs",
+      "title": "Web Technology Important MCQs",
+      "file": "Quizes/WebDevMCQ.json",
+      "questions": 50,
+      "description": "Unit-wise MCQs covering HTML, CSS, JavaScript, URLs, tables, frames, functions, objects, and events for diploma-level exam preparation."
+    },
+    {
       "id": "PHPMCQ",
       "title": "PHP Programming 50 Important MCQs",
       "file": "Quizes/PHPMCQ.json",

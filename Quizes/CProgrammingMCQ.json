@@ -1,0 +1,513 @@
+{
+    "id": "CPMCQs",
+    "title": "Programming in C - Important MCQs",
+    "description": "Unit-wise MCQs on C programming, algorithms, arrays, functions, pointers, and control structures for diploma exam preparation.",
+    "totalQuestions": 45,
+    "units": {
+        "1": "Program Logic Development",
+        "2": "Basics of C Programming",
+        "3": "Decision Making and Branching",
+        "4": "Arrays and Structures",
+        "5": "Concept and Need of Functions",
+        "6": "Pointers",
+        "7": "Bonus Questions"
+    },
+    "questionsPerUnit": 7,
+    "questions": [
+        {
+            "question": "Which of the following is a graphical representation of an algorithm?",
+            "options": [
+                "Pseudo-code",
+                "Flowchart",
+                "Program",
+                "Logic Gate"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "The terminal symbol in a flowchart is represented by:",
+            "options": [
+                "Oval",
+                "Rectangle",
+                "Diamond",
+                "Parallelogram"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Which property ensures that an algorithm terminates after finite steps?",
+            "options": [
+                "Input",
+                "Finiteness",
+                "Feasibility",
+                "Effectiveness"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In a flowchart, the diamond symbol represents:",
+            "options": [
+                "Input",
+                "Processing",
+                "Decision making",
+                "Output"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "The symbol '<-' in pseudo-code generally denotes:",
+            "options": [
+                "Comparison",
+                "Less than",
+                "Assignment",
+                "Logical AND"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which metric measures the running time efficiency of an algorithm?",
+            "options": [
+                "Time Complexity",
+                "Code Length",
+                "Space Complexity",
+                "Visual Clarity"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "A process leading back to a previous step in a flowchart indicates:",
+            "options": [
+                "Terminal point",
+                "Branching error",
+                "Loop or iteration",
+                "Input error"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Who is known as the creator of the C programming language?",
+            "options": [
+                "James Gosling",
+                "Dennis Ritchie",
+                "Bjarne Stroustrup",
+                "Ken Thompson"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Every C program must contain which function?",
+            "options": [
+                "printf()",
+                "scanf()",
+                "main()",
+                "include()"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "What is the extension used for a C source file?",
+            "options": [
+                ".cpp",
+                ".obj",
+                ".c",
+                ".h"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which of the following is a valid variable name in C?",
+            "options": [
+                "2nd_var",
+                "float",
+                "_my_var",
+                "my-var"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Keywords in C are:",
+            "options": [
+                "Variable names",
+                "Reserved words",
+                "Header files",
+                "Operators"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "What will be the output of printf(\"%d\", 5/2); ?",
+            "options": [
+                "2.5",
+                "2",
+                "3",
+                "Error"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which range is correct for a signed char data type?",
+            "options": [
+                "0 to 255",
+                "-128 to 127",
+                "-32768 to 32767",
+                "-127 to 128"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which operator is used for equality comparison in C?",
+            "options": [
+                "=",
+                "==",
+                "!=",
+                "==="
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "An infinite loop occurs when the condition is:",
+            "options": [
+                "Always false",
+                "Always true",
+                "Missing else block",
+                "Compiled incorrectly"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which statement skips the remaining statements of the current iteration?",
+            "options": [
+                "break",
+                "exit",
+                "continue",
+                "goto"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "What is the minimum number of executions of a do-while loop?",
+            "options": [
+                "0",
+                "1",
+                "2",
+                "Depends on compiler"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which operator represents logical AND in C?",
+            "options": [
+                "&",
+                "||",
+                "!",
+                "&&"
+            ],
+            "correctIndex": 3,
+            "unit": 3
+        },
+        {
+            "question": "What is short-circuit evaluation?",
+            "options": [
+                "Hardware failure",
+                "Stopping evaluation once result is known",
+                "Skipping default case",
+                "Loop reversal"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "The goto statement transfers control to:",
+            "options": [
+                "Another function",
+                "The main function",
+                "A labeled statement",
+                "A loop only"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Array indices in C start from:",
+            "options": [
+                "1",
+                "-1",
+                "0",
+                "User choice"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "A string in C is terminated by:",
+            "options": [
+                "\\n",
+                "\\0",
+                "\\t",
+                "\\s"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which keyword is used to define a structure?",
+            "options": [
+                "structure",
+                "array",
+                "struct",
+                "typedef"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Structures differ from arrays because:",
+            "options": [
+                "Arrays store different types",
+                "Structures store different data types",
+                "Arrays use dot operator",
+                "No difference exists"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which operator is used to access structure members?",
+            "options": [
+                "->",
+                "*",
+                ".",
+                "&"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "In a union, memory allocated equals:",
+            "options": [
+                "Sum of member sizes",
+                "Smallest member size",
+                "Largest member size",
+                "Fixed 1024 bytes"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "If int a[5] = {1,2,3}; then value of a[4] is:",
+            "options": [
+                "3",
+                "Garbage value",
+                "0",
+                "Error"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "A function that calls itself is known as:",
+            "options": [
+                "Nested function",
+                "Library function",
+                "Recursive function",
+                "User-defined function"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "If a function does not return a value, its return type should be:",
+            "options": [
+                "int",
+                "void",
+                "float",
+                "char"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which of the following is a library function?",
+            "options": [
+                "main()",
+                "printf()",
+                "MyFunc()",
+                "Logic()"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "In Call by Value, changes made inside the function:",
+            "options": [
+                "Affect original variable",
+                "Do not affect original variable",
+                "Cause compilation error",
+                "Delete original variable"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Variables declared inside a function are called:",
+            "options": [
+                "Global",
+                "Static",
+                "Local",
+                "External"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "A static variable inside a function:",
+            "options": [
+                "Gets destroyed after execution",
+                "Retains value between calls",
+                "Cannot be initialized",
+                "Stored in CPU registers"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "If a recursive function has no base case, it causes:",
+            "options": [
+                "Successful execution",
+                "Infinite recursion",
+                "Faster execution",
+                "Syntax error"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "A pointer stores:",
+            "options": [
+                "Integer value",
+                "Character",
+                "Memory address",
+                "Floating value"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        },
+        {
+            "question": "Which operator gives the address of a variable?",
+            "options": [
+                "*",
+                "&",
+                "->",
+                "%"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Which is the correct declaration of an integer pointer?",
+            "options": [
+                "int ptr*;",
+                "int *ptr;",
+                "*int ptr;",
+                "ptr *int;"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "A NULL pointer points to:",
+            "options": [
+                "First array element",
+                "Main function",
+                "No valid memory location",
+                "Address 1000"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        },
+        {
+            "question": "What does ptr++ do for an integer pointer?",
+            "options": [
+                "Increments stored value",
+                "Increments by 1 byte",
+                "Moves by size of integer",
+                "Decrements address"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        },
+        {
+            "question": "A pointer to pointer stores:",
+            "options": [
+                "Syntax error",
+                "Address of another pointer",
+                "Address of itself",
+                "Array of addresses"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "What is the output of *&var ?",
+            "options": [
+                "Address of var",
+                "Value of var",
+                "Pointer to var",
+                "Error"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Which statement is used to terminate a loop immediately?",
+            "options": [
+                "continue",
+                "break",
+                "goto",
+                "return"
+            ],
+            "correctIndex": 1,
+            "unit": 7
+        },
+        {
+            "question": "Which header file is required for sqrt() function?",
+            "options": [
+                "stdio.h",
+                "math.h",
+                "string.h",
+                "conio.h"
+            ],
+            "correctIndex": 1,
+            "unit": 7
+        },
+        {
+            "question": "Which function is used to find the length of a string?",
+            "options": [
+                "strcpy()",
+                "strcat()",
+                "strlen()",
+                "strcmp()"
+            ],
+            "correctIndex": 2,
+            "unit": 7
+        }
+    ]
+}

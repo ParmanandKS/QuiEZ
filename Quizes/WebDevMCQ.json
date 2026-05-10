@@ -1,0 +1,566 @@
+{
+  "id": "WTMCQs",
+  "title": "Web Technology Important MCQs",
+  "description": "Unit-wise MCQs covering HTML, CSS, JavaScript, URLs, tables, frames, functions, objects, and events for diploma-level exam preparation.",
+  "totalQuestions": 50,
+  "units": {
+    "1": "Fundamentals of WWW and HTML",
+    "2": "URL, Image, Table, and Frame",
+    "3": "Cascading Style Sheets (CSS)",
+    "4": "Basic JavaScript",
+    "5": "JavaScript Function, Objects, and Events"
+  },
+  "questionsPerUnit": 10,
+  "questions": [
+    {
+      "question": "What is the full form of WWW?",
+      "options": [
+        "World Wide Web",
+        "World Whole Web",
+        "Wide World Web",
+        "Web World Wide"
+      ],
+      "correctIndex": 0,
+      "unit": 1
+    },
+    {
+      "question": "Which tag is used to create the largest heading in HTML?",
+      "options": [
+        "<heading>",
+        "<h6>",
+        "<h1>",
+        "<head>"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "HTML is considered a:",
+      "options": [
+        "Programming Language",
+        "Markup Language",
+        "Scripting Language",
+        "Database"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which of the following is a block-level element?",
+      "options": [
+        "<span>",
+        "<a>",
+        "<div>",
+        "<strong>"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "What is the purpose of the <meta> tag in HTML?",
+      "options": [
+        "To display images",
+        "To provide metadata about the document",
+        "To create links",
+        "To define the body"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which character is used to indicate an end tag?",
+      "options": [
+        "<",
+        "^",
+        "/",
+        "*"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "A dynamic website differs from a static website because:",
+      "options": [
+        "It uses more colors",
+        "It can change content dynamically",
+        "It doesn't need a browser",
+        "It loads faster"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "The <thead> tag is used to:",
+      "options": [
+        "Define title",
+        "Group header content in a table",
+        "Create new page",
+        "Style text"
+      ],
+      "correctIndex": 1,
+      "unit": 1
+    },
+    {
+      "question": "Which organization defines web standards?",
+      "options": [
+        "Microsoft",
+        "Google",
+        "W3C",
+        "Apple"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "Which tag is used for the footer section in HTML5?",
+      "options": [
+        "<bottom>",
+        "<end>",
+        "<footer>",
+        "<section-end>"
+      ],
+      "correctIndex": 2,
+      "unit": 1
+    },
+    {
+      "question": "Which attribute specifies the destination URL in an anchor tag?",
+      "options": [
+        "src",
+        "link",
+        "href",
+        "target"
+      ],
+      "correctIndex": 2,
+      "unit": 2
+    },
+    {
+      "question": "Which tag is used to insert an image?",
+      "options": [
+        "<picture>",
+        "<img>",
+        "<image>",
+        "<src>"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which tag defines a table cell?",
+      "options": [
+        "<tr>",
+        "<th>",
+        "<td>",
+        "<table>"
+      ],
+      "correctIndex": 2,
+      "unit": 2
+    },
+    {
+      "question": "What is an Absolute URL?",
+      "options": [
+        "A local file link",
+        "A full web address",
+        "A short link",
+        "An image link"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "The cellpadding attribute is used to:",
+      "options": [
+        "Set distance between cells",
+        "Set distance between border and content",
+        "Set width",
+        "Change color"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "To make an image clickable, the image tag must be inside:",
+      "options": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<div>"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which attribute allows a table cell to span multiple rows?",
+      "options": [
+        "colspan",
+        "rowspan",
+        "rowfill",
+        "multirow"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "The <iframe> tag is used for:",
+      "options": [
+        "Complex tables",
+        "Displaying webpage inside webpage",
+        "Background music",
+        "Footer creation"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "Which attribute displays alternate text if an image fails to load?",
+      "options": [
+        "title",
+        "src",
+        "alt",
+        "text"
+      ],
+      "correctIndex": 2,
+      "unit": 2
+    },
+    {
+      "question": "rows=\"25%, *\" in frameset means:",
+      "options": [
+        "25 pixel row",
+        "First row 25%, second remaining space",
+        "25 rows",
+        "Hidden frame"
+      ],
+      "correctIndex": 1,
+      "unit": 2
+    },
+    {
+      "question": "What does CSS stand for?",
+      "options": [
+        "Computer Style Sheets",
+        "Cascading Style Sheets",
+        "Creative Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "Which tag is used for internal CSS?",
+      "options": [
+        "<css>",
+        "<script>",
+        "<style>",
+        "<link>"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Which property changes the background color?",
+      "options": [
+        "color",
+        "bg-color",
+        "background-color",
+        "surface-color"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Which selector targets id=\"test\"?",
+      "options": [
+        ".test",
+        "#test",
+        "*test",
+        "test"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "How do you add an external CSS file?",
+      "options": [
+        "<style src='style.css'>",
+        "<link rel='stylesheet' href='style.css'>",
+        "<add css='style.css'>",
+        "<a>"
+      ],
+      "correctIndex": 1,
+      "unit": 3
+    },
+    {
+      "question": "Which layer is outside the border in CSS Box Model?",
+      "options": [
+        "Padding",
+        "Content",
+        "Margin",
+        "Shadow"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Which property controls text size?",
+      "options": [
+        "font-style",
+        "text-size",
+        "font-size",
+        "text-height"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Which property makes text bold?",
+      "options": [
+        "font-weight: bold",
+        "font: bold",
+        "style: bold",
+        "text-bold: true"
+      ],
+      "correctIndex": 0,
+      "unit": 3
+    },
+    {
+      "question": "Default value of CSS position property is:",
+      "options": [
+        "relative",
+        "absolute",
+        "static",
+        "fixed"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Which selector has highest specificity?",
+      "options": [
+        "Class selector",
+        "Element selector",
+        "ID selector",
+        "Universal selector"
+      ],
+      "correctIndex": 2,
+      "unit": 3
+    },
+    {
+      "question": "Inside which HTML element is JavaScript placed?",
+      "options": [
+        "<js>",
+        "<scripting>",
+        "<script>",
+        "<javascript>"
+      ],
+      "correctIndex": 2,
+      "unit": 4
+    },
+    {
+      "question": "Which function displays an alert box?",
+      "options": [
+        "msg()",
+        "alert()",
+        "prompt()",
+        "confirm()"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Which symbol is used for single-line comments in JavaScript?",
+      "options": [
+        "//",
+        "/*",
+        "#",
+        "--"
+      ],
+      "correctIndex": 0,
+      "unit": 4
+    },
+    {
+      "question": "How do you create a variable in modern JavaScript?",
+      "options": [
+        "variable myVar",
+        "v myVar",
+        "let myVar",
+        "set myVar"
+      ],
+      "correctIndex": 2,
+      "unit": 4
+    },
+    {
+      "question": "Which operator checks strict equality?",
+      "options": [
+        "==",
+        "=",
+        "===",
+        "!="
+      ],
+      "correctIndex": 2,
+      "unit": 4
+    },
+    {
+      "question": "What is the output type of typeof [1,2,3]?",
+      "options": [
+        "array",
+        "object",
+        "list",
+        "number"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Which loop executes at least once?",
+      "options": [
+        "for",
+        "while",
+        "do...while",
+        "if...else"
+      ],
+      "correctIndex": 2,
+      "unit": 4
+    },
+    {
+      "question": "Which statement stops a loop?",
+      "options": [
+        "stop",
+        "break",
+        "exit",
+        "return"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "JavaScript is a ______ language.",
+      "options": [
+        "Compiled",
+        "Interpreted",
+        "Machine",
+        "Low-level"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "Correct syntax for an if statement is:",
+      "options": [
+        "if i = 5 then",
+        "if (i == 5)",
+        "if i == 5",
+        "if [i == 5]"
+      ],
+      "correctIndex": 1,
+      "unit": 4
+    },
+    {
+      "question": "How do you start a function declaration?",
+      "options": [
+        "call function myFunc()",
+        "function myFunc()",
+        "function:myFunc()",
+        "new function()"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which event occurs when a user clicks an element?",
+      "options": [
+        "onmouseclick",
+        "onclick",
+        "onchange",
+        "onhover"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which object performs mathematical tasks?",
+      "options": [
+        "Math",
+        "Calculation",
+        "Number",
+        "Solve"
+      ],
+      "correctIndex": 0,
+      "unit": 5
+    },
+    {
+      "question": "How do you call a function named message?",
+      "options": [
+        "call message()",
+        "message()",
+        "run message()",
+        "call.message"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which method removes the last array element?",
+      "options": [
+        "push()",
+        "shift()",
+        "pop()",
+        "remove()"
+      ],
+      "correctIndex": 2,
+      "unit": 5
+    },
+    {
+      "question": "Correct syntax for a JavaScript object is:",
+      "options": [
+        "var person = (name:'John')",
+        "var person = {name:'John'}",
+        "var person = [name:'John']",
+        "var person = 'name:John'"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which event occurs when a user leaves an input field?",
+      "options": [
+        "onblur",
+        "onfocus",
+        "onclick",
+        "onchange"
+      ],
+      "correctIndex": 0,
+      "unit": 5
+    },
+    {
+      "question": "try...catch is used for:",
+      "options": [
+        "Looping",
+        "Handling errors",
+        "Declaring variables",
+        "Styling"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "The return statement in a function:",
+      "options": [
+        "Prints output",
+        "Stops execution and returns value",
+        "Restarts function",
+        "Links another page"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    },
+    {
+      "question": "Which method returns character at specified index?",
+      "options": [
+        "getCharAt()",
+        "charAt()",
+        "character()",
+        "at()"
+      ],
+      "correctIndex": 1,
+      "unit": 5
+    }
+  ]
+}
