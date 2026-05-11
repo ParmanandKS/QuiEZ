@@ -1,0 +1,677 @@
+{
+    "id": "E&SMCQs",
+    "title": "Entrepreneurship & Start-Ups Comprehensive MCQs",
+    "description": "Unit-wise MCQs covering entrepreneurship, start-ups, innovation, finance, support systems, and exit strategies for academic exam preparation.",
+    "totalQuestions": 60,
+    "units": {
+        "1": "Introduction to Entrepreneurship and Start-Up",
+        "2": "Motivation and Traits of Entrepreneurs",
+        "3": "Start-Ups and Innovation",
+        "4": "Business Planning and Entrepreneurial Finance",
+        "5": "Entrepreneurial Support Systems",
+        "6": "Exit Strategies for Entrepreneurs"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Who is known as an entrepreneur?",
+            "options": [
+                "A person who only invests money",
+                "A person who starts and manages a business venture",
+                "A government employee",
+                "A person who avoids risk"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "The term 'Entrepreneur' is derived from the French word:",
+            "options": [
+                "Entrepreneurial",
+                "Entreprendre",
+                "Enterprise",
+                "Enterpriser"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "According to Schumpeter, an entrepreneur is primarily an:",
+            "options": [
+                "Accountant",
+                "Trader",
+                "Innovator",
+                "Banker"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Which of the following is a major function of entrepreneurship?",
+            "options": [
+                "Reducing innovation",
+                "Creating employment opportunities",
+                "Increasing imports only",
+                "Eliminating competition"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "An entrepreneur differs from a businessman because an entrepreneur:",
+            "options": [
+                "Avoids risk",
+                "Focuses mainly on innovation",
+                "Depends completely on others",
+                "Uses only traditional methods"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which characteristic is essential for successful entrepreneurship?",
+            "options": [
+                "Fear of failure",
+                "Risk-bearing ability",
+                "Lack of confidence",
+                "Resistance to change"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Entrepreneurship contributes to economic development through:",
+            "options": [
+                "Innovation and employment generation",
+                "Limiting industrial growth",
+                "Reducing productivity",
+                "Avoiding technology"
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "Which of the following best explains entrepreneurial vision?",
+            "options": [
+                "Ignoring future possibilities",
+                "Predicting opportunities and planning ahead",
+                "Avoiding decision-making",
+                "Following others blindly"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "A person launches a completely new digital service that changes customer behavior in the market. This is an example of:",
+            "options": [
+                "Routine management",
+                "Entrepreneurial innovation",
+                "Traditional marketing",
+                "Administrative control"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Why is entrepreneurship considered important in developing economies?",
+            "options": [
+                "It increases dependency",
+                "It reduces industrialization",
+                "It promotes innovation, growth, and employment",
+                "It discourages competition"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "Motivation arising from personal satisfaction is called:",
+            "options": [
+                "Extrinsic motivation",
+                "Intrinsic motivation",
+                "Negative motivation",
+                "Financial motivation"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which of the following is a common entrepreneurial trait?",
+            "options": [
+                "Laziness",
+                "Innovation",
+                "Dependency",
+                "Fearfulness"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Motivation through rewards such as salary or bonus is known as:",
+            "options": [
+                "Emotional motivation",
+                "Rational motivation",
+                "Extrinsic motivation",
+                "Social motivation"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Rational motivation is mainly based on:",
+            "options": [
+                "Emotional feelings only",
+                "Logical thinking and analysis",
+                "Fear and punishment",
+                "Random decisions"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which quality helps entrepreneurs continue despite failures?",
+            "options": [
+                "Persistence",
+                "Rigidity",
+                "Hesitation",
+                "Isolation"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Emotional motivation is associated with:",
+            "options": [
+                "Satisfaction and recognition",
+                "Legal obligations",
+                "Financial auditing",
+                "Taxation"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "Entrepreneurs with high achievement motivation usually:",
+            "options": [
+                "Avoid responsibilities",
+                "Seek challenging goals",
+                "Prefer routine work only",
+                "Depend on luck"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which factor most strongly influences entrepreneurial motivation?",
+            "options": [
+                "Family and social environment",
+                "Weather conditions",
+                "Transportation system",
+                "Geography only"
+            ],
+            "correctIndex": 0,
+            "unit": 2
+        },
+        {
+            "question": "An entrepreneur continues developing a product despite repeated market rejection because of passion and self-belief. Which motivation dominates?",
+            "options": [
+                "Extrinsic motivation",
+                "Intrinsic motivation",
+                "Negative motivation",
+                "Financial motivation"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which combination is most effective for long-term entrepreneurial success?",
+            "options": [
+                "Fear and pressure",
+                "Innovation and persistence",
+                "Tradition and dependency",
+                "Isolation and rigidity"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "A start-up is generally established to:",
+            "options": [
+                "Avoid innovation",
+                "Solve problems through new ideas",
+                "Reduce employment",
+                "Eliminate technology"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Innovation means:",
+            "options": [
+                "Copying old systems exactly",
+                "Introducing new ideas or improvements",
+                "Avoiding changes",
+                "Closing businesses"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which feature is common in successful start-ups?",
+            "options": [
+                "Resistance to technology",
+                "Adaptability",
+                "Lack of planning",
+                "No customer focus"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "A Minimum Viable Product (MVP) is developed to:",
+            "options": [
+                "Eliminate all competitors",
+                "Test a business idea with basic features",
+                "Increase taxation",
+                "Replace customer feedback"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Scalability in a start-up means:",
+            "options": [
+                "Reducing growth intentionally",
+                "Expanding operations efficiently",
+                "Avoiding customers",
+                "Limiting profits"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which funding method involves using personal savings?",
+            "options": [
+                "Venture capital",
+                "Angel investment",
+                "Bootstrapping",
+                "Equity funding"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which factor is most important during the early stage of a start-up?",
+            "options": [
+                "Customer validation",
+                "Luxury infrastructure",
+                "International expansion",
+                "Large employee strength"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "Disruptive innovation refers to:",
+            "options": [
+                "Small packaging changes",
+                "Innovations that transform existing markets",
+                "Increasing paperwork",
+                "Traditional production methods"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "A start-up failed because it ignored customer feedback before product launch. Which issue caused the failure?",
+            "options": [
+                "Excessive profit",
+                "Lack of market validation",
+                "Overproduction only",
+                "Legal restrictions only"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Investors are highly attracted to scalable start-ups because they:",
+            "options": [
+                "Avoid technology",
+                "Offer rapid growth potential",
+                "Eliminate competition permanently",
+                "Require no management"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "A business plan is prepared to:",
+            "options": [
+                "Increase confusion",
+                "Guide business operations",
+                "Avoid planning",
+                "Replace management"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Working capital is used for:",
+            "options": [
+                "Day-to-day business operations",
+                "Purchasing land only",
+                "Long-term investments only",
+                "Tax collection"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Which document shows income and expenses?",
+            "options": [
+                "Ledger",
+                "Profit and Loss Account",
+                "Invoice",
+                "Debit note"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Market research helps entrepreneurs to:",
+            "options": [
+                "Ignore customer needs",
+                "Understand market demand and competition",
+                "Reduce product quality",
+                "Avoid planning"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Venture capitalists generally invest in:",
+            "options": [
+                "Traditional low-growth businesses",
+                "High-growth start-ups",
+                "Government departments",
+                "Non-commercial projects"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Equity financing involves:",
+            "options": [
+                "Borrowing money with interest",
+                "Selling ownership shares",
+                "Government taxation",
+                "Leasing machinery"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which section of a business plan explains target customers and promotion strategies?",
+            "options": [
+                "Marketing Plan",
+                "Production Plan",
+                "Financial Plan",
+                "Organizational Chart"
+            ],
+            "correctIndex": 0,
+            "unit": 4
+        },
+        {
+            "question": "Financial forecasting is useful because it:",
+            "options": [
+                "Guarantees profit",
+                "Estimates future revenue and expenses",
+                "Removes all risks",
+                "Prevents market competition"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "A company reports high sales but cannot pay suppliers on time. Which problem is most likely present?",
+            "options": [
+                "Branding issue",
+                "Cash flow problem",
+                "Product innovation",
+                "Customer loyalty"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which financing source requires entrepreneurs to share ownership and decision-making?",
+            "options": [
+                "Bank loan",
+                "Venture capital funding",
+                "Trade credit",
+                "Retained earnings"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Business incubators mainly provide:",
+            "options": [
+                "Punishment systems",
+                "Mentoring and infrastructure support",
+                "Tax collection",
+                "Import restrictions"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Entrepreneurship Development Programmes (EDPs) are conducted to:",
+            "options": [
+                "Reduce innovation",
+                "Develop entrepreneurial skills",
+                "Discourage self-employment",
+                "Eliminate competition"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Government support for entrepreneurs mainly aims to:",
+            "options": [
+                "Increase unemployment",
+                "Encourage business development",
+                "Reduce industrialization",
+                "Eliminate exports"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Networking helps entrepreneurs by:",
+            "options": [
+                "Reducing communication",
+                "Creating opportunities and partnerships",
+                "Eliminating customers",
+                "Avoiding innovation"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which institution commonly supports small businesses financially?",
+            "options": [
+                "Development banks",
+                "Cinema halls",
+                "Tourism agencies",
+                "Sports clubs"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "A business accelerator mainly helps start-ups to:",
+            "options": [
+                "Close operations",
+                "Scale rapidly within a short period",
+                "Reduce market reach",
+                "Avoid investment"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which environmental factor most directly influences business laws and policies?",
+            "options": [
+                "Political environment",
+                "Climate only",
+                "Transportation only",
+                "Family system"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "Incubators are different from accelerators because incubators:",
+            "options": [
+                "Focus on early-stage development",
+                "Avoid mentoring",
+                "Work only with large corporations",
+                "Provide no infrastructure"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "A start-up receives funding, mentorship, office space, and investor access for rapid expansion. This support system is called:",
+            "options": [
+                "Cooperative society",
+                "Business accelerator",
+                "Trade union",
+                "Retail network"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which strategy best helps entrepreneurs survive in competitive environments?",
+            "options": [
+                "Ignoring customer feedback",
+                "Continuous innovation and adaptability",
+                "Avoiding technology",
+                "Reducing product quality"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "An exit strategy is mainly prepared by an entrepreneur to:",
+            "options": [
+                "Start a new business only",
+                "Leave or transfer ownership of a business systematically",
+                "Avoid all profits",
+                "Reduce employees permanently"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "In a merger and acquisition exit strategy:",
+            "options": [
+                "The company closes immediately",
+                "The entrepreneur merges or sells the enterprise to another organization",
+                "Employees resign together",
+                "Only products are sold"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Family succession refers to:",
+            "options": [
+                "Selling a business to foreign investors",
+                "Transferring business ownership to family members",
+                "Closing the business permanently",
+                "Hiring new employees only"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "The term 'Acquihire' is a combination of:",
+            "options": [
+                "Acquire and Inspire",
+                "Acquisition and Hire",
+                "Account and Hire",
+                "Acquire and Handle"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "In management and employee buyout:",
+            "options": [
+                "Customers take over the firm",
+                "Government acquires the enterprise",
+                "Managers and selected employees jointly purchase the business",
+                "Competitors close the organization"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        },
+        {
+            "question": "Liquidation means:",
+            "options": [
+                "Expanding the business globally",
+                "Converting business assets into cash by selling them",
+                "Hiring additional employees",
+                "Launching new products"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Bankruptcy occurs when:",
+            "options": [
+                "A company earns excessive profits",
+                "A company cannot meet its financial obligations",
+                "A business expands internationally",
+                "Entrepreneurs avoid taxation"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "Which exit strategy helps another company obtain a skilled workforce from an existing business?",
+            "options": [
+                "Family succession",
+                "Acquihire",
+                "Liquidation",
+                "Bankruptcy"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        },
+        {
+            "question": "A company takes control of another company without approval from the target company’s board of directors. This situation is called:",
+            "options": [
+                "Friendly merger",
+                "Family succession",
+                "Hostile takeover",
+                "Employee buyout"
+            ],
+            "correctIndex": 2,
+            "unit": 6
+        },
+        {
+            "question": "Business harvesting is best defined as:",
+            "options": [
+                "Reducing employee salaries",
+                "Recovering the value created in a business through selling assets or the entire firm",
+                "Closing the company without selling assets",
+                "Avoiding investment returns"
+            ],
+            "correctIndex": 1,
+            "unit": 6
+        }
+    ]
+}

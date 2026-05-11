@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "E&SMCQs",
+      "title": "Entrepreneurship & Start-Ups MCQs",
+      "file": "Quizes/E&SMCQs.json",
+      "questions": 60,
+      "description": "Unit-wise MCQs covering entrepreneurship, start-ups, innovation, finance, support systems, and exit strategies for academic exam preparation."
+    },
+    {
       "id": "IoT-Advance",
       "title": "IoT Advance MCQs",
       "file": "Quizes/IoTMCQ.json",
