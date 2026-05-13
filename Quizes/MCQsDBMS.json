@@ -1,0 +1,566 @@
+{
+    "id": "DBMSMCQs",
+    "title": "Database Management System Important MCQs",
+    "description": "Unit-wise MCQs covering DBMS concepts, RDBMS, normalization, SQL, relational algebra, and schema objects for diploma-level exam preparation.",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Overview of DBMS",
+        "2": "Relational Database Management System (RDBMS)",
+        "3": "Relational Database Design",
+        "4": "Relational Algebra & SQL",
+        "5": "Other Schema Objects"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Which of the following is an example of a DBMS software?",
+            "options": [
+                "Microsoft Word",
+                "MySQL",
+                "Google Chrome",
+                "Windows 11"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In a database table, a single row is also known as a:",
+            "options": [
+                "Attribute",
+                "Domain",
+                "Tuple",
+                "Relation"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the main disadvantage of a traditional File Processing System?",
+            "options": [
+                "High cost",
+                "Data Redundancy",
+                "Fast data access",
+                "Simple structure"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which database type distributes data among different systems of an organization connected via communication links?",
+            "options": [
+                "Parallel Database",
+                "Centralized Database",
+                "Distributed Database",
+                "Client/Server Database"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "The 'C' in ACID properties of a database transaction stands for:",
+            "options": [
+                "Control",
+                "Concurrency",
+                "Consistency",
+                "Capability"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "In a Client/Server database system, which part is typically responsible for managing data storage and complex processing?",
+            "options": [
+                "The Client",
+                "The Server",
+                "The Network",
+                "The User Interface"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "The set of all possible values for an attribute is called its:",
+            "options": [
+                "Relation",
+                "Tuple",
+                "Degree",
+                "Domain"
+            ],
+            "correctIndex": 3,
+            "unit": 1
+        },
+        {
+            "question": "Which characteristic of DBMS allows multiple users to access the same database at the same time?",
+            "options": [
+                "Data Isolation",
+                "Concurrency",
+                "Redundancy",
+                "Normalization"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "How does a Parallel Database System differ from a Distributed Database System?",
+            "options": [
+                "Parallel systems use multiple processors to improve performance on a single site, while Distributed systems spread data across multiple sites.",
+                "Distributed systems are always faster than parallel systems.",
+                "Parallel systems do not support SQL.",
+                "There is no difference between the two."
+            ],
+            "correctIndex": 0,
+            "unit": 1
+        },
+        {
+            "question": "In a Relational Data Model, if a table has 5 attributes and 10 tuples, the 'Degree' and 'Cardinality' are respectively:",
+            "options": [
+                "10 and 5",
+                "5 and 10",
+                "5 and 5",
+                "50 and 10"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which symbol is used to represent an 'Attribute' in an E-R Diagram?",
+            "options": [
+                "Rectangle",
+                "Diamond",
+                "Ellipse",
+                "Triangle"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "A key that consists of more than one attribute to uniquely identify a tuple is called a:",
+            "options": [
+                "Primary Key",
+                "Composite Key",
+                "Foreign Key",
+                "Candidate Key"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which key is used to establish a relationship between two tables?",
+            "options": [
+                "Super Key",
+                "Alternate Key",
+                "Foreign Key",
+                "Candidate Key"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "An entity set that does not have a sufficient number of attributes to form a primary key is called a:",
+            "options": [
+                "Strong Entity Set",
+                "Simple Entity Set",
+                "Weak Entity Set",
+                "Derived Entity Set"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which integrity constraint ensures that a primary key cannot contain a NULL value?",
+            "options": [
+                "Domain Constraint",
+                "Referential Integrity Constraint",
+                "Entity Integrity Constraint",
+                "Key Constraint"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "An attribute that can be divided into smaller sub-parts is a:",
+            "options": [
+                "Simple Attribute",
+                "Composite Attribute",
+                "Multivalued Attribute",
+                "Derived Attribute"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "In an E-R diagram, a 'Double Ellipse' represents which type of attribute?",
+            "options": [
+                "Key Attribute",
+                "Derived Attribute",
+                "Multivalued Attribute",
+                "Composite Attribute"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "'Schema' refers to the __________ of the database, while 'Instance' refers to the __________ at a specific moment.",
+            "options": [
+                "Data / Structure",
+                "Logic / Physical",
+                "Overall Design / Actual Data",
+                "User View / Admin View"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "When converting an E-R diagram into tables, a Many-to-Many (N:M) relationship between two entities results in how many total tables?",
+            "options": [
+                "1",
+                "2",
+                "3",
+                "4"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Which of the following is true about a Super Key?",
+            "options": [
+                "It must be the minimal set of attributes.",
+                "Every Candidate Key is a Super Key, but not every Super Key is a Candidate Key.",
+                "It cannot contain NULL values.",
+                "It is used only for weak entities."
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "The process of organizing data to minimize redundancy is called:",
+            "options": [
+                "Generalization",
+                "Specialization",
+                "Normalization",
+                "Categorization"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "A relation is in 1NF if:",
+            "options": [
+                "It has no transitive dependencies.",
+                "Every attribute contains only atomic values.",
+                "It has a foreign key.",
+                "It is joined with another table."
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What is a major drawback of Denormalization?",
+            "options": [
+                "Slower query performance",
+                "Increased data redundancy",
+                "Simpler table structures",
+                "Less storage space required"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "A relation is in 2NF if it is in 1NF and:",
+            "options": [
+                "It has no transitive dependencies.",
+                "Every non-prime attribute is fully functionally dependent on the primary key.",
+                "There are no multivalued attributes.",
+                "It has at least two candidate keys."
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Transitive dependency is specifically addressed in which Normal Form?",
+            "options": [
+                "1NF",
+                "2NF",
+                "3NF",
+                "BCNF"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "For a relation to be in BCNF, for every functional dependency X → Y:",
+            "options": [
+                "Y must be a prime attribute.",
+                "X must be a super key.",
+                "X must be a prime attribute.",
+                "Y must be a subset of X."
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "If attribute B is functionally dependent on A (A → B), it means:",
+            "options": [
+                "Values of B determine values of A.",
+                "For every unique value of A, there is exactly one value of B.",
+                "A and B must be in the same table.",
+                "A must be a foreign key."
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Denormalization is usually performed during:",
+            "options": [
+                "The initial design phase.",
+                "To improve the read performance of a database.",
+                "When data consistency is the only priority.",
+                "To eliminate all functional dependencies."
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Given the functional dependencies {A→B, B→C, C→D}, the closure of attribute A (A+) is:",
+            "options": [
+                "{A, B}",
+                "{A, B, C}",
+                "{A, B, C, D}",
+                "{A, C, D}"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which Normal Form is considered stronger than 3NF and handles cases where multiple overlapping candidate keys exist?",
+            "options": [
+                "2NF",
+                "4NF",
+                "BCNF",
+                "5NF"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which SQL command is used to add a new row to a table?",
+            "options": [
+                "ADD",
+                "CREATE",
+                "INSERT",
+                "UPDATE"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which aggregate function is used to find the total number of rows in a table?",
+            "options": [
+                "SUM",
+                "COUNT",
+                "TOTAL",
+                "MAX"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "The 'DELETE' command in SQL is an example of:",
+            "options": [
+                "DDL",
+                "DML",
+                "DCL",
+                "TCL"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which SQL clause is used to filter the results of an aggregate function?",
+            "options": [
+                "WHERE",
+                "GROUP BY",
+                "HAVING",
+                "ORDER BY"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "In Relational Algebra, the 'Project' (π) operation is used to:",
+            "options": [
+                "Filter rows",
+                "Select specific columns",
+                "Combine two tables",
+                "Rename an attribute"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Which type of Join returns all rows from the left table and the matched rows from the right table?",
+            "options": [
+                "Inner Join",
+                "Right Join",
+                "Left Join",
+                "Full Outer Join"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "The command used to permanently save the changes made by a transaction is:",
+            "options": [
+                "ROLLBACK",
+                "SAVEPOINT",
+                "COMMIT",
+                "GRANT"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "Which SQL operator is used to search for a specified pattern in a column?",
+            "options": [
+                "GET",
+                "LIKE",
+                "PATTERN",
+                "FIND"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "What is the result of a Cartesian Product (A × B) if table A has 3 rows and table B has 4 rows?",
+            "options": [
+                "7 rows",
+                "1 row",
+                "12 rows",
+                "0 rows"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "A 'Nested Query' is also known as a:",
+            "options": [
+                "Correlated Query",
+                "Subquery",
+                "Join Query",
+                "View Query"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "A virtual table that does not store data physically but is based on the result of a query is called a:",
+            "options": [
+                "Table",
+                "Sequence",
+                "View",
+                "Index"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "What is the primary purpose of an Index in a database?",
+            "options": [
+                "To save space",
+                "To speed up data retrieval",
+                "To encrypt data",
+                "To prevent data deletion"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which command is used to remove a View from the database?",
+            "options": [
+                "DELETE VIEW",
+                "REMOVE VIEW",
+                "DROP VIEW",
+                "ERASE VIEW"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "A 'Synonym' in DBMS is used to:",
+            "options": [
+                "Create a backup of a table.",
+                "Provide an alternative name for a database object.",
+                "Speed up calculations.",
+                "Enforce primary key constraints."
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which type of Index prevents duplicate values in the indexed column?",
+            "options": [
+                "Simple Index",
+                "Composite Index",
+                "Unique Index",
+                "Non-unique Index"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "To generate a series of unique integers automatically, we use a:",
+            "options": [
+                "Index",
+                "View",
+                "Sequence",
+                "Synonym"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "An index created on more than one column is known as a:",
+            "options": [
+                "Simple Index",
+                "Multi-table Index",
+                "Composite Index",
+                "Primary Index"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "Which of the following is true about 'Updating' a View?",
+            "options": [
+                "All views are always updatable.",
+                "A view is updatable if it is derived from a single base table without aggregate functions.",
+                "Views can only be updated if they have an index.",
+                "Updates to a view do not affect the base table."
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which schema object would you use to hide sensitive columns from certain users while still allowing them to see other employee details?",
+            "options": [
+                "Sequence",
+                "Index",
+                "View",
+                "Synonym"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "When a base table is dropped, what happens to the associated View?",
+            "options": [
+                "The View is automatically deleted.",
+                "The View remains but becomes invalid.",
+                "The View is converted into a physical table.",
+                "The Drop command is rejected."
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        }
+    ]
+}

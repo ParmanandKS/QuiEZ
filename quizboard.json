@@ -1,6 +1,13 @@
 {
   "quizzes": [
     {
+      "id": "DBMSMCQs",
+      "title": "Database Management System Important MCQs",
+      "file": "Quizes/MCQsDBMS.json",
+      "questions": 50,
+      "description": "Unit-wise MCQs covering DBMS concepts, RDBMS, normalization, SQL, relational algebra, and schema objects for diploma-level exam preparation."
+    },
+    {
       "id": "software engineering",
       "title": "Software Engineering Full Test",
       "file": "Quizes/se.json",
