@@ -1,53 +1,18 @@
 {
   "quizzes": [
     {
-      "id": "Data Science",
-      "title": "Data Science: Data Warehousing & Data Mining MCQ",
-      "file": "Quizes/DataScienceMCQ.json",
+      "id": "CPMCQs",
+      "title": "Programming in C - Important MCQs",
+      "file": "Quizes/CProgrammingMCQ.json",
+      "questions": 45,
+      "description": "Unit-wise MCQs on C programming, algorithms, arrays, functions, pointers, and control structures for diploma exam preparation."
+    },
+    {
+      "id": "COAMCQs",
+      "title": "Computer Organization & Architecture Important MCQs",
+      "file": "Quizes/MCQsCOA.json",
       "questions": 50,
-      "description": "Unit-wise 50 MCQs for Data Science: Data Warehousing & Data Mining"
-    },
-    {
-      "id": "DSWM",
-      "title": "Data Mining & Data Warehousing PYQ",
-      "file": "Quizes/PyqDSWM.json",
-      "questions": 15,
-      "description": "Data Science: Data Warehousing & Data Mining 2024 & 2025 PYQ"
-    },
-    {
-      "id": "DBMSMCQs",
-      "title": "Database Management System Important MCQs",
-      "file": "Quizes/MCQsDBMS.json",
-      "questions": 50,
-      "description": "Unit-wise MCQs covering DBMS concepts, RDBMS, normalization, SQL, relational algebra, and schema objects for diploma-level exam preparation."
-    },
-    {
-      "id": "IoT-Advance",
-      "title": "IoT Advance MCQs",
-      "file": "Quizes/IoTMCQ.json",
-      "questions": 50,
-      "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
-    },
-    {
-      "id": "IOTPYQ",
-      "title": "Internet of Things PYQ",
-      "file": "Quizes/PyqIoT.json",
-      "questions": 21,
-      "description": "IoT Advance Diploma Exam"
-    },
-    {
-      "id": "PHPMCQ",
-      "title": "PHP Programming 50 Important MCQs",
-      "file": "Quizes/PHPMCQ.json",
-      "questions": 50,
-      "description": "PHP Programming wise 50MCQ for SBTE Bihar."
-    },
-    {
-      "id": "PHPPYQ",
-      "title": "PHP PYQ",
-      "file": "Quizes/PyqPHP.json",
-      "questions": 8,
-      "description": "Previous year questions for PHP"
+      "description": "Computer Organization & Architecture MCQs covering CPU organization, ALU operations, I/O systems, memory hierarchy, pipelining, and vector processing for diploma exam preparation."
     },
     {
       "id": "cns",
@@ -71,6 +36,20 @@
       "description": "Unit-wise 40 MCQs for E-Governance Concepts and Applications"
     },
     {
+      "id": "IoT-Advance",
+      "title": "IoT Advance MCQs",
+      "file": "Quizes/IoTMCQ.json",
+      "questions": 50,
+      "description": "SBTE IoT Advance: Unit-wise 50 Most important MCQs"
+    },
+    {
+      "id": "IOTPYQ",
+      "title": "Internet of Things PYQ",
+      "file": "Quizes/PyqIoT.json",
+      "questions": 21,
+      "description": "IoT Advance Diploma Exam"
+    },
+    {
       "id": "software engineering",
       "title": "Software Engineering Full Test",
       "file": "Quizes/se.json",
@@ -90,13 +69,6 @@
       "file": "Quizes/WebDevMCQ.json",
       "questions": 50,
       "description": "Unit-wise MCQs covering HTML, CSS, JavaScript, URLs, tables, frames, functions, objects, and events for diploma-level exam preparation."
-    },
-    {
-      "id": "CPMCQs",
-      "title": "Programming in C - Important MCQs",
-      "file": "Quizes/CProgrammingMCQ.json",
-      "questions": 45,
-      "description": "Unit-wise MCQs on C programming, algorithms, arrays, functions, pointers, and control structures for diploma exam preparation."
     },
     {
       "id": "Java OOPs",
@@ -132,6 +104,41 @@
       "file": "Quizes/PyqPHE.json",
       "questions": 20,
       "description": "Public Health Engineering Previous Year Questions for Civil Engineering."
+    },
+    {
+      "id": "Data Science",
+      "title": "Data Science: Data Warehousing & Data Mining MCQ",
+      "file": "Quizes/DataScienceMCQ.json",
+      "questions": 50,
+      "description": "Unit-wise 50 MCQs for Data Science: Data Warehousing & Data Mining"
+    },
+    {
+      "id": "DSWM",
+      "title": "Data Mining & Data Warehousing PYQ",
+      "file": "Quizes/PyqDSWM.json",
+      "questions": 15,
+      "description": "Data Science: Data Warehousing & Data Mining 2024 & 2025 PYQ"
+    },
+    {
+      "id": "DBMSMCQs",
+      "title": "Database Management System Important MCQs",
+      "file": "Quizes/MCQsDBMS.json",
+      "questions": 50,
+      "description": "Unit-wise MCQs covering DBMS concepts, RDBMS, normalization, SQL, relational algebra, and schema objects for diploma-level exam preparation."
+    },
+    {
+      "id": "PHPMCQ",
+      "title": "PHP Programming 50 Important MCQs",
+      "file": "Quizes/PHPMCQ.json",
+      "questions": 50,
+      "description": "PHP Programming wise 50MCQ for SBTE Bihar."
+    },
+    {
+      "id": "PHPPYQ",
+      "title": "PHP PYQ",
+      "file": "Quizes/PyqPHP.json",
+      "questions": 8,
+      "description": "Previous year questions for PHP"
     }
   ]
 }

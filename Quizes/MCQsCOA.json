@@ -1,0 +1,566 @@
+{
+    "id": "COAMCQs",
+    "title": "Computer Organization and Architecture Important MCQs",
+    "description": "Computer Organization & Architecture MCQs covering CPU organization, ALU operations, I/O systems, memory hierarchy, pipelining, and vector processing for diploma exam preparation.",
+    "totalQuestions": 50,
+    "units": {
+        "1": "Basic Computer Organization and Design",
+        "2": "Arithmetic and Logic Unit",
+        "3": "Input-Output Organization",
+        "4": "Memory Organization",
+        "5": "Pipelining and Vector Processing"
+    },
+    "questionsPerUnit": 10,
+    "questions": [
+        {
+            "question": "Which register in the basic computer stores the address of the next instruction to be fetched from memory?",
+            "options": [
+                "Accumulator (AC)",
+                "Program Counter (PC)",
+                "Address Register (AR)",
+                "Data Register (DR)"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which type of bus architecture is strictly unidirectional?",
+            "options": [
+                "Data Bus",
+                "Control Bus",
+                "Address Bus",
+                "System Bus"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "In a Stored Program Organization, if the instruction format has an addressing bit I = 0, what does it signify?",
+            "options": [
+                "Indirect Addressing",
+                "Direct Addressing",
+                "Register-Reference Instruction",
+                "Input-Output Instruction"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "During the instruction cycle, a Register-Reference instruction is decoded when:",
+            "options": [
+                "D7 = 0 and I = 0",
+                "D7 = 1 and I = 0",
+                "D7 = 1 and I = 1",
+                "D7 = 0 and I = 1"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "How does a subroutine CALL instruction fundamentally differ from a conditional branch instruction?",
+            "options": [
+                "CALL clears the accumulator",
+                "CALL saves the return address before branching",
+                "Branch increments the Stack Pointer",
+                "CALL only works in microprogrammed systems"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "Which type of control unit uses combinational logic circuits and decoders to generate control signals?",
+            "options": [
+                "Microprogrammed Control Unit",
+                "Asynchronous Interface Control Unit",
+                "Hardwired Control Unit",
+                "Software-driven Control Unit"
+            ],
+            "correctIndex": 2,
+            "unit": 1
+        },
+        {
+            "question": "What is the main difference between a Maskable Interrupt and a Non-Maskable Interrupt?",
+            "options": [
+                "Maskable interrupts handle power failures",
+                "Maskable interrupts can be disabled by the CPU",
+                "NMIs require polling",
+                "NMIs clear the program counter"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "For a stack growing downward in memory, what is the correct POP sequence into DR?",
+            "options": [
+                "SP ← SP + 1, DR ← M[SP]",
+                "DR ← M[SP], SP ← SP + 1",
+                "SP ← SP - 1, DR ← M[SP]",
+                "DR ← M[SP], SP ← SP - 1"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "An instruction is stored at address 350 with displacement value 150 using Relative Addressing. What is the Effective Address?",
+            "options": [
+                "150",
+                "500",
+                "501",
+                "200"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "If the CPU contains 8 registers (R0–R7), what binary value selects register R4 in the SELA field?",
+            "options": [
+                "011",
+                "100",
+                "101",
+                "110"
+            ],
+            "correctIndex": 1,
+            "unit": 1
+        },
+        {
+            "question": "In IEEE 754 Single-Precision format, how many bits are allocated for sign, exponent, and mantissa respectively?",
+            "options": [
+                "1, 11, 20",
+                "1, 8, 23",
+                "2, 8, 22",
+                "1, 7, 24"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "What defines an Array Multiplier?",
+            "options": [
+                "Sequential clocked circuit",
+                "Combinational circuit using AND gates and adders",
+                "Microprogrammed ROM circuit",
+                "Serial shift register system"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "How is subtraction A - B achieved in a parallel adder/subtractor circuit?",
+            "options": [
+                "Pass B unchanged",
+                "Complement B and add 1",
+                "Complement A and shift left",
+                "Activate decimal correction"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "When does a fixed-point division operation generate Divide Overflow?",
+            "options": [
+                "When divisor is odd",
+                "When MSB of dividend is 0",
+                "When high-order dividend part ≥ divisor",
+                "When sequence counter reaches zero"
+            ],
+            "correctIndex": 2,
+            "unit": 2
+        },
+        {
+            "question": "Why does a BCD adder add binary 0110 after certain additions?",
+            "options": [
+                "To convert to 2's complement",
+                "To correct invalid BCD states",
+                "To align exponents",
+                "To clear sign registers"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "When does Signed-Magnitude arithmetic require magnitude subtraction?",
+            "options": [
+                "When signs are identical during addition",
+                "When signs differ during addition or are same during subtraction",
+                "Only when both operands are negative",
+                "Whenever carry-out is 1"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "In Booth’s Multiplication Algorithm, what happens when QnQn+1 = 01?",
+            "options": [
+                "Subtract multiplicand and shift right",
+                "Add multiplicand and arithmetic shift right",
+                "Shift left twice",
+                "Clear sequence counter"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "If an 8-bit signed integer is multiplied by a 6-bit signed integer, how many bits are needed for the product?",
+            "options": [
+                "8 bits",
+                "14 bits",
+                "48 bits",
+                "16 bits"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "During floating-point normalization, what happens if the mantissa has leading zeros?",
+            "options": [
+                "Shift right and increment exponent",
+                "Shift left and decrement exponent",
+                "Clear exponent",
+                "Pad fraction with 1s"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "A floating-point system uses bias 127. What stored exponent represents actual exponent +5?",
+            "options": [
+                "122",
+                "132",
+                "5",
+                "127"
+            ],
+            "correctIndex": 1,
+            "unit": 2
+        },
+        {
+            "question": "Which I/O control method requires the CPU to continuously check a device status flag?",
+            "options": [
+                "Interrupt-Initiated I/O",
+                "Programmed I/O",
+                "DMA",
+                "Handshaking"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which hardware module resolves differences between peripherals and the CPU bus?",
+            "options": [
+                "Hardwired Control Unit",
+                "I/O Interface Module",
+                "Associative Memory",
+                "Pipeline Buffer"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Why is Parallel Communication preferred for internal buses?",
+            "options": [
+                "Cheaper over long distances",
+                "Transfers entire words simultaneously",
+                "Eliminates crosstalk",
+                "Requires no grounding"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What is the key distinction between Isolated I/O and Memory-Mapped I/O?",
+            "options": [
+                "Separate address spaces vs shared memory space",
+                "Memory-Mapped uses IN/OUT instructions",
+                "Isolated uses serial lines",
+                "Isolated uses ROM control"
+            ],
+            "correctIndex": 0,
+            "unit": 3
+        },
+        {
+            "question": "How does Handshaking improve asynchronous data transfer reliability?",
+            "options": [
+                "Uses a global clock",
+                "Provides acknowledgment signals",
+                "Bypasses interface cards",
+                "Requires DMA"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What happens to the CPU during a DMA block transfer?",
+            "options": [
+                "CPU manages each transfer",
+                "DMA becomes bus master",
+                "CPU resets",
+                "CPU enters diagnostic mode"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What is the purpose of the Start Bit in UART communication?",
+            "options": [
+                "Clear parity flags",
+                "Synchronize receiver clock",
+                "Request DMA cycle",
+                "Switch duplex mode"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "Which statement correctly describes a Bit-Oriented Protocol?",
+            "options": [
+                "Uses ASCII framing characters",
+                "Uses flag patterns and bit stuffing",
+                "Uses parallel arbitration",
+                "Does not use CRC"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "What occurs during DMA cycle stealing?",
+            "options": [
+                "DMA locks CPU permanently",
+                "DMA takes bus for one cycle",
+                "CPU clears DMA buffer",
+                "Disk intercepts cache"
+            ],
+            "correctIndex": 1,
+            "unit": 3
+        },
+        {
+            "question": "If 4 signal transitions are needed per byte, how many transitions are required for 256 bytes?",
+            "options": [
+                "256",
+                "512",
+                "1024",
+                "2048"
+            ],
+            "correctIndex": 2,
+            "unit": 3
+        },
+        {
+            "question": "Which sequence correctly orders memory from fastest to slowest?",
+            "options": [
+                "Cache → Main Memory → Registers → Disk",
+                "Registers → Cache → Main Memory → Disk",
+                "Main Memory → Cache → Registers → Virtual Memory",
+                "Cache → Registers → DRAM → Tape"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "In Virtual Memory, what is Address Space?",
+            "options": [
+                "Physical RAM capacity",
+                "Logical addresses generated by CPU",
+                "Register tracking space",
+                "ROM block limit"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "What happens when the CPU accesses a page not present in RAM?",
+            "options": [
+                "System crash",
+                "Page Fault occurs",
+                "Cache clears",
+                "Infinite loop begins"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "How does Associative Memory retrieve data?",
+            "options": [
+                "Sequential search",
+                "Numerical addressing",
+                "Parallel content matching",
+                "Refresh cycle scanning"
+            ],
+            "correctIndex": 2,
+            "unit": 4
+        },
+        {
+            "question": "How is a physical address divided in Direct-Mapped Cache?",
+            "options": [
+                "Tag and Word only",
+                "Tag, Index, Word",
+                "Page and Offset",
+                "Set and Associative Mask"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "What is the benefit of Set-Associative Cache Mapping?",
+            "options": [
+                "Less hardware",
+                "Reduces conflict misses",
+                "No tag bits needed",
+                "Bypasses main memory"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "In LRU page replacement, which page is removed?",
+            "options": [
+                "Oldest loaded page",
+                "Least recently accessed page",
+                "Most recently loaded page",
+                "Random page"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Cache access time is 10 ns, memory access time is 100 ns, and hit ratio is 90%. What is EMAT?",
+            "options": [
+                "10 ns",
+                "19 ns",
+                "55 ns",
+                "91 ns"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "Why does Belady’s Anomaly occur in FIFO page replacement?",
+            "options": [
+                "Uses frequency instead of recency",
+                "More frames can increase page faults",
+                "Cache mapping conflicts",
+                "Clock speed fluctuation"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "A 2½D memory organization must address 1024 locations. How many total selection lines are needed?",
+            "options": [
+                "1024",
+                "64",
+                "32",
+                "16"
+            ],
+            "correctIndex": 1,
+            "unit": 4
+        },
+        {
+            "question": "What is the main goal of pipelining?",
+            "options": [
+                "Reduce single instruction latency",
+                "Increase instruction throughput",
+                "Eliminate memory latency",
+                "Increase ALU frequency infinitely"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "What does SIMD stand for?",
+            "options": [
+                "Sequential Instruction Multiple Data",
+                "Single Instruction Multiple Data",
+                "Shared Interface Managed Data",
+                "Single Instruction Unsigned Magnitude"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "What is a Pipeline Stall?",
+            "options": [
+                "Hardware crash",
+                "Delay introduced to resolve hazards",
+                "Cache flushing process",
+                "Interrupt latency"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "What occurs during the Write-Back stage of a pipeline?",
+            "options": [
+                "Swap data loaded to RAM",
+                "Result written into register file",
+                "NMI context saved",
+                "Microprogram counter reset"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "Which scenario represents a Data Hazard?",
+            "options": [
+                "Memory port conflict",
+                "Branch instruction flush",
+                "Instruction depends on unfinished result",
+                "Opcode decode failure"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        },
+        {
+            "question": "What is a Structural Hazard?",
+            "options": [
+                "Hardware resource conflict",
+                "Branch delay",
+                "Register dependency",
+                "Arithmetic overflow"
+            ],
+            "correctIndex": 0,
+            "unit": 5
+        },
+        {
+            "question": "How does Vector Processing achieve high performance?",
+            "options": [
+                "Double clock frequency",
+                "Process arrays simultaneously",
+                "Sequential instruction loading",
+                "Serial communication optimization"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "A sequential program takes 40 ns and pipelined version takes 10 ns. What is the Scale Factor?",
+            "options": [
+                "0.25",
+                "4",
+                "30 ns",
+                "2"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "What is the purpose of Operand Forwarding in pipelines?",
+            "options": [
+                "Move instruction addresses",
+                "Resolve data hazards directly",
+                "Adjust branch targets",
+                "Copy RAM to cache"
+            ],
+            "correctIndex": 1,
+            "unit": 5
+        },
+        {
+            "question": "If a pipeline has 4 stages and executes 100 tasks ideally, how many clock cycles are required?",
+            "options": [
+                "400",
+                "104",
+                "103",
+                "105"
+            ],
+            "correctIndex": 2,
+            "unit": 5
+        }
+    ]
+}
